@@ -13223,28 +13223,6 @@ cc_prebuilt_library_shared {
     prefer: true,
 }
 cc_prebuilt_library_shared {
-    name: "libeffectsconfig",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libeffectsconfig.so",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libeffectsconfig.so",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    soc_specific: true,
-    prefer: true,
-}
-cc_prebuilt_library_shared {
     name: "libembmsservice",
     owner: "xiaomi",
     strip: {
@@ -17114,28 +17092,6 @@ cc_prebuilt_library_shared {
     prefer: true,
 }
 cc_prebuilt_library_shared {
-    name: "libpsi",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libpsi.so",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libpsi.so",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    soc_specific: true,
-    prefer: true,
-}
-cc_prebuilt_library_shared {
     name: "libpsmoptfeature",
     owner: "xiaomi",
     strip: {
@@ -19012,28 +18968,6 @@ cc_prebuilt_library_shared {
         android_arm64: {
             srcs: [
                 "proprietary/vendor/lib64/libqti-utils.so",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    soc_specific: true,
-    prefer: true,
-}
-cc_prebuilt_library_shared {
-    name: "libqti_vndfwk_detect",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libqti_vndfwk_detect.so",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libqti_vndfwk_detect.so",
             ],
         },
     },
@@ -21843,28 +21777,6 @@ cc_prebuilt_library_shared {
         android_arm64: {
             srcs: [
                 "proprietary/vendor/lib64/libvmmem.so",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    soc_specific: true,
-    prefer: true,
-}
-cc_prebuilt_library_shared {
-    name: "libvndfwk_detect_jni.qti",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libvndfwk_detect_jni.qti.so",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libvndfwk_detect_jni.qti.so",
             ],
         },
     },

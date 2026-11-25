@@ -1,0 +1,57 @@
+[22:25:44] final commit: 564f04c276209fc106b2dd598ccb14c14dafbc69
+[22:25:44] final tree:   657d4bae1b5a37d4e91c68a541194491bc649b15
+[22:25:44] files: 3817
+[22:25:44] batches: 26 at <= 60 MB each
+[22:26:27] batch 1/26: 150 files, 59 MB, 90ca717a -> pushing
+[22:27:53]   batch 1 done in 116s
+[22:28:05] batch 2/26: 101 files, 60 MB, ea9c3de5 -> pushing
+[22:28:52]   batch 2 done in 59s
+[22:29:37] batch 3/26: 393 files, 60 MB, 7553730b -> pushing
+[22:30:40]   batch 3 done in 108s
+[22:32:13] batch 4/26: 451 files, 56 MB, 0b13bde7 -> pushing
+[22:33:08]   batch 4 done in 148s
+[22:33:34] batch 5/26: 169 files, 59 MB, 36b2a3e7 -> pushing
+[22:35:47]   batch 5 done in 159s
+[22:36:10] batch 6/26: 138 files, 50 MB, 77b5a38f -> pushing
+[22:36:48]   batch 6 done in 61s
+[22:36:52] batch 7/26: 12 files, 59 MB, 326bbf56 -> pushing
+[22:38:19]   batch 7 done in 91s
+[22:38:33] batch 8/26: 87 files, 60 MB, ba2c8dc7 -> pushing
+[22:39:39]   batch 8 done in 80s
+[22:40:32] batch 9/26: 468 files, 60 MB, 360a8f71 -> pushing
+[22:42:01]   batch 9 done in 143s
+[22:42:39] batch 10/26: 344 files, 52 MB, b48d93ae -> pushing
+[22:43:07]   batch 10 done in 66s
+[22:43:12] batch 11/26: 8 files, 58 MB, f822ab75 -> pushing
+[22:43:29]   batch 11 done in 22s
+[22:43:45] batch 12/26: 122 files, 60 MB, e35f475f -> pushing
+[22:44:48]   batch 12 done in 79s
+[22:45:00] batch 13/26: 89 files, 31 MB, d14678b8 -> pushing
+[22:46:02]   batch 13 done in 74s
+[22:46:05] batch 14/26: 1 files, 86 MB, e0b6298c -> pushing
+[22:47:41]   batch 14 done in 99s
+[22:47:43] batch 15/26: 2 files, 54 MB, d9a1d463 -> pushing
+[22:48:55]   batch 15 done in 74s
+[22:48:57] batch 16/26: 3 files, 53 MB, 841c332d -> pushing
+[22:49:47]   batch 16 done in 52s
+[22:49:50] batch 17/26: 4 files, 56 MB, c6592fd3 -> pushing
+[22:50:55]   batch 17 done in 69s
+[22:50:59] batch 18/26: 9 files, 58 MB, b01b7452 -> pushing
+[22:51:55]   batch 18 done in 60s
+[22:52:01] batch 19/26: 22 files, 60 MB, 2eead1a6 -> pushing
+[22:53:02]   batch 19 done in 67s
+[22:53:12] batch 20/26: 56 files, 59 MB, 65eb12f1 -> pushing
+[22:54:15]   batch 20 done in 72s
+[22:54:36] batch 21/26: 143 files, 60 MB, 4a1cb085 -> pushing
+[22:55:10]   batch 21 done in 55s
+[22:55:53] batch 22/26: 344 files, 60 MB, 423514b2 -> pushing
+[22:56:26]   batch 22 done in 76s
+[22:57:17] batch 23/26: 490 files, 46 MB, 13324483 -> pushing
+[22:57:54]   batch 23 done in 89s
+[22:57:57] batch 24/26: 4 files, 56 MB, 23fbf541 -> pushing
+[22:58:11]   batch 24 done in 17s
+[22:58:25] batch 25/26: 103 files, 60 MB, ce5101c7 -> pushing
+[22:59:38]   batch 25 done in 87s
+[22:59:54] batch 26/26: 104 files, 44 MB, 7860e064 -> pushing
+[23:00:33]   batch 26 done in 55s
+[23:00:33] all batches pushed; collapsing history to the single commit

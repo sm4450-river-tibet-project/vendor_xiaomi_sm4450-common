@@ -655,7 +655,6 @@ PRODUCT_PACKAGES += \
     libeai_float \
     libeffectproxy \
     libeffects \
-    libeffectsconfig \
     libembmsservice \
     libengineplugin \
     libesesbprovision \
@@ -843,7 +842,6 @@ PRODUCT_PACKAGES += \
     libprocomp \
     libprotobuf-cpp-full-3.9.1 \
     libprotobuf-cpp-lite-3.9.1 \
-    libpsi \
     libpsmoptfeature \
     libq3dtools_adreno \
     libq3dtools_esx \
@@ -931,7 +929,6 @@ PRODUCT_PACKAGES += \
     libqti-perfd-client \
     libqti-util \
     libqti-utils \
-    libqti_vndfwk_detect \
     libqti_vndfwk_detect_vendor \
     libqtigefar \
     libqtikeymaster4 \
@@ -1069,7 +1066,6 @@ PRODUCT_PACKAGES += \
     libvideoutils \
     libvisualizer \
     libvmmem \
-    libvndfwk_detect_jni.qti \
     libvndfwk_detect_jni.qti_vendor \
     libvolumelistener \
     libvorbisidec \
