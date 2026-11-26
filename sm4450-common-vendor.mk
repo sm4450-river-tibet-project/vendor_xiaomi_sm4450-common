@@ -1487,7 +1487,6 @@ PRODUCT_PACKAGES += \
     xtwifi-inet-agent_bin
 
 PRODUCT_COPY_FILES += \
-    proprietary/vendor/build.prop:$(TARGET_COPY_OUT_VENDOR)/build.prop \
     proprietary/vendor/build_S88018AA1.prop:$(TARGET_COPY_OUT_VENDOR)/build_S88018AA1.prop \
     proprietary/vendor/build_S88018EA1.prop:$(TARGET_COPY_OUT_VENDOR)/build_S88018EA1.prop \
     proprietary/vendor/build_S88018OA1.prop:$(TARGET_COPY_OUT_VENDOR)/build_S88018OA1.prop \
