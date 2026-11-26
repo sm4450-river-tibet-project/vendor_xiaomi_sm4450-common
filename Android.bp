@@ -20238,23 +20238,6 @@ cc_prebuilt_library_shared {
     soc_specific: true,
     prefer: true,
 }
-,
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libtinycompress.so",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libtinycompress.so",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    soc_specific: true,
-    prefer: true,
-}
 cc_prebuilt_library_shared {
     name: "libtinyxml2_1",
     owner: "xiaomi",
