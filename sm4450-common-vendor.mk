@@ -704,7 +704,6 @@ PRODUCT_PACKAGES += \
     libkaraokepal \
     libkcl \
     libkernelmanager \
-    libkeymaster_messages \
     libkeymasterdeviceutils \
     libkeymasterprovision \
     libkeymasterutils \
