@@ -116,11 +116,6 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider_2.5 \
     android.hardware.camera.provider_2.6 \
     android.hardware.camera.provider_2.7 \
-    android.hardware.cas.native_1.0 \
-    android.hardware.cas_1.0 \
-    android.hardware.cas_1.1 \
-    android.hardware.cas_1.2 \
-    android.hardware.cas_1.2-service_bin \
     android.hardware.drm_1.0 \
     android.hardware.drm_1.1 \
     android.hardware.drm_1.2 \
@@ -164,7 +159,6 @@ PRODUCT_PACKAGES += \
     android.hardware.keymaster_4.1-service-qti_bin \
     android.hardware.light_2.0 \
     android.hardware.media.c2_1.0 \
-    android.hardware.media.omx_1.0-service_bin \
     android.hardware.nfc_1.0 \
     android.hardware.nfc_1.1 \
     android.hardware.nfc_1.2 \
@@ -197,7 +191,6 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors_2.1 \
     android.hardware.sensors_2.1-service.multihal_bin \
     android.hardware.soundtrigger_2.1 \
-    android.hardware.soundtrigger_2.1-impl \
     android.hardware.soundtrigger_2.2 \
     android.hardware.soundtrigger_2.2-impl \
     android.hardware.soundtrigger_2.3 \
@@ -245,7 +238,6 @@ PRODUCT_PACKAGES += \
     audioadsprpcd_bin \
     audioflacapp_bin \
     awk_bin \
-    boringssl_self_test32_bin \
     boringssl_self_test64_bin \
     btaudio_offload_if \
     btconfig_bin \
@@ -461,7 +453,6 @@ PRODUCT_PACKAGES += \
     ioprofiler_bin \
     ipacm-diag_bin \
     ipacm_bin \
-    iperf_bin \
     irsc_util_bin \
     iw-vendor_bin \
     iwlist_bin \
@@ -517,7 +508,6 @@ PRODUCT_PACKAGES += \
     libadreno_app_profiles \
     libadreno_utils \
     libadsp_default_listener \
-    libadsp_jpege_skel \
     libadsprpc \
     libagm_compress_plugin \
     libagm_mixer_plugin \
@@ -526,7 +516,6 @@ PRODUCT_PACKAGES += \
     libaidenoiser \
     libaidenoiserv2 \
     libapengine \
-    libapn_dsp_skel \
     libappclassifier \
     libarcsoft_beautyshot \
     libarcsoft_dualcam_refocus_image \
@@ -547,8 +536,6 @@ PRODUCT_PACKAGES += \
     libbase64 \
     libbatching \
     libbatterylistener \
-    libbitml_nsp_skel \
-    libbitml_nsp_v2_skel \
     libbitmlengine \
     libbitmlenginev2 \
     libbluetooth_audio_session \
@@ -561,7 +548,6 @@ PRODUCT_PACKAGES += \
     libc___shared \
     libcacertclient \
     libcamera2ndk_vendor \
-    libcamera_nn_skel \
     libcamera_nn_stub \
     libcamerapostproc \
     libcamxcommonutils \
@@ -621,12 +607,9 @@ PRODUCT_PACKAGES += \
     libdrmtime \
     libdsd2pcm \
     libdsi_netctrl \
-    libdspCV_skel \
-    libdsp_streamer_binning \
     libdsutils \
     libdynproc \
     libeai_fixed \
-    libeai_fixed_32 \
     libeai_float \
     libeffectproxy \
     libeffects \
@@ -635,8 +618,6 @@ PRODUCT_PACKAGES += \
     libesesbprovision \
     libeva \
     libfastcrc \
-    libfastcvadsp \
-    libfastcvdsp_skel \
     libfastcvdsp_stub \
     libfastcvopt \
     libfmpal \
@@ -661,11 +642,9 @@ PRODUCT_PACKAGES += \
     libhdcpsrm \
     libhdr10plus \
     libhdr_backlight_adapter \
-    libhdr_skel \
     libhdr_stub \
     libhdr_tm \
     libhme \
-    libhme_dsp_skel \
     libidl \
     libimp \
     libipebpsstriping \
@@ -715,7 +694,6 @@ PRODUCT_PACKAGES += \
     liblqe \
     libmasc \
     libmcs \
-    libmctfengine_skel \
     libmctfengine_stub \
     libmdmdetect \
     libmdsprpc \
@@ -911,7 +889,6 @@ PRODUCT_PACKAGES += \
     libscveObjectSegmentation \
     libscveObjectTracker \
     libscveObjectTracker_stub \
-    libscveT2T_skel \
     libsdm-color \
     libsdm-colormgr-algo \
     libsdm-disp-vndapis \
@@ -950,27 +927,6 @@ PRODUCT_PACKAGES += \
     libssccalapi_2.0 \
     libssd \
     libstagefright_bufferpool_2.0.1 \
-    libstagefright_soft_aacdec \
-    libstagefright_soft_aacenc \
-    libstagefright_soft_amrdec \
-    libstagefright_soft_amrnbenc \
-    libstagefright_soft_amrwbenc \
-    libstagefright_soft_avcdec \
-    libstagefright_soft_avcenc \
-    libstagefright_soft_flacdec \
-    libstagefright_soft_flacenc \
-    libstagefright_soft_g711dec \
-    libstagefright_soft_gsmdec \
-    libstagefright_soft_hevcdec \
-    libstagefright_soft_mp3dec \
-    libstagefright_soft_mpeg2dec \
-    libstagefright_soft_mpeg4dec \
-    libstagefright_soft_mpeg4enc \
-    libstagefright_soft_opusdec \
-    libstagefright_soft_rawdec \
-    libstagefright_soft_vorbisdec \
-    libstagefright_soft_vpxdec \
-    libstagefright_soft_vpxenc \
     libstagefrighthw \
     libstandbyfeature \
     libstdc__ \
@@ -1002,7 +958,6 @@ PRODUCT_PACKAGES += \
     libvideoutils \
     libvndfwk_detect_jni.qti_vendor \
     libvolumelistener \
-    libvsim \
     libwapi_cert \
     libwfdaac_vendor \
     libwfdcodecv4l2_proprietary \
@@ -1069,7 +1024,6 @@ PRODUCT_PACKAGES += \
     pm_ioctl_app_bin \
     pmic_key_reset_bin \
     pnscr_bin \
-    pnscr_felica_bin \
     points_info_gen_bin \
     port-bridge_bin \
     power_off_alarm_bin \
@@ -1124,7 +1078,6 @@ PRODUCT_PACKAGES += \
     spectraltool_bin \
     sscrpcd_bin \
     ssgqmigd64_bin \
-    ssgqmigd_bin \
     ssgtzd_bin \
     ssr_diag_bin \
     ssr_setup_bin \
@@ -1463,7 +1416,6 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.touchfeature_1.0 \
     vendor.xiaomi.hardware.touchfeature_1.0-impl \
     vendor.xiaomi.hardware.touchfeature_1.0-service_bin \
-    vendor.xiaomi.hardware.vsimapp_1.0 \
     vendor.xiaomi.sensor.citsensorservice_1.1 \
     vendor.xiaomi.sensor.citsensorservice_2.0 \
     vendor.xiaomi.sensor.citsensorservice_2.0-impl \
@@ -1472,7 +1424,6 @@ PRODUCT_PACKAGES += \
     vmmgr_bin \
     vndservice_bin \
     vndservicemanager_bin \
-    vsimd_bin \
     vulkan.adreno \
     wdsdaemon_bin \
     wfdhdcphalservice_bin \
