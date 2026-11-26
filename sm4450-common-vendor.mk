@@ -519,21 +519,15 @@ PRODUCT_PACKAGES += \
     libadsp_default_listener \
     libadsp_jpege_skel \
     libadsprpc \
-    libagm \
     libagm_compress_plugin \
     libagm_mixer_plugin \
     libagm_pcm_plugin \
-    libagmclient \
     libagmmixer \
     libaidenoiser \
     libaidenoiserv2 \
     libapengine \
     libapn_dsp_skel \
     libappclassifier \
-    libar-acdb \
-    libar-gpr \
-    libar-gsl \
-    libar-pal \
     libarcsoft_beautyshot \
     libarcsoft_dualcam_refocus_image \
     libarcsoft_dualcam_refocus_video \
@@ -547,7 +541,6 @@ PRODUCT_PACKAGES += \
     libasn1crt \
     libasn1crtx \
     libasphere \
-    libats \
     libaudio_log_utils \
     libaudiocloudctrl \
     libbacklight-calib \
@@ -595,7 +588,6 @@ PRODUCT_PACKAGES += \
     libcert_parse.wpa_s \
     libcheckpid \
     libchilog \
-    libcld80211 \
     libcne \
     libcneapiclient \
     libcneoplookup \
@@ -617,8 +609,6 @@ PRODUCT_PACKAGES += \
     libdiagjni \
     libdigital-dimming \
     libdisp-aba \
-    libdisplayconfig.qti \
-    libdisplaydebug \
     libdisplayfeature \
     libdisplayfeatureservice \
     libdisplayqos \
@@ -629,7 +619,6 @@ PRODUCT_PACKAGES += \
     libdrmclearkeyplugin \
     libdrmfs \
     libdrmtime \
-    libdrmutils \
     libdsd2pcm \
     libdsi_netctrl \
     libdspCV_skel \
@@ -650,7 +639,6 @@ PRODUCT_PACKAGES += \
     libfastcvdsp_skel \
     libfastcvdsp_stub \
     libfastcvopt \
-    libfilefinder \
     libfmpal \
     libgame_enhance \
     libgarden \
@@ -663,9 +651,7 @@ PRODUCT_PACKAGES += \
     libgnsspps \
     libgoodixhwfingerprint \
     libgps.utils \
-    libgpu_tonemapper \
     libgpudataproducer \
-    libgralloc.qti \
     libgrpc___unsecure \
     libgsl \
     libgui_vendor \
@@ -678,12 +664,10 @@ PRODUCT_PACKAGES += \
     libhdr_skel \
     libhdr_stub \
     libhdr_tm \
-    libhistogram \
     libhme \
     libhme_dsp_skel \
     libidl \
     libimp \
-    libipanat \
     libipebpsstriping \
     libipebpsstriping170 \
     libipebpsstriping480 \
@@ -729,8 +713,6 @@ PRODUCT_PACKAGES += \
     liblowi_common \
     liblowi_wifihal \
     liblqe \
-    liblx-ar_util \
-    liblx-osal \
     libmasc \
     libmcs \
     libmctfengine_skel \
@@ -795,7 +777,6 @@ PRODUCT_PACKAGES += \
     libnlnetmgr \
     liboemaids_vendor \
     liboemcrypto \
-    liboffloadhal \
     libopencv \
     libopencv3a \
     libopencv_java4 \
@@ -816,8 +797,6 @@ PRODUCT_PACKAGES += \
     libpowercore \
     libprekill \
     libprocomp \
-    libprotobuf-cpp-full-3.9.1 \
-    libprotobuf-cpp-lite-3.9.1 \
     libpsmoptfeature \
     libq3dtools_adreno \
     libq3dtools_esx \
@@ -871,7 +850,6 @@ PRODUCT_PACKAGES += \
     libqdma_file_agent \
     libqdp \
     libqdpr \
-    libqdutils \
     libqesdk \
     libqesdk_manager \
     libqisl \
@@ -934,13 +912,10 @@ PRODUCT_PACKAGES += \
     libscveObjectTracker \
     libscveObjectTracker_stub \
     libscveT2T_skel \
-    libsdedrm \
     libsdm-color \
     libsdm-colormgr-algo \
     libsdm-disp-vndapis \
-    libsdmcore \
     libsdmextension \
-    libsdmutils \
     libsdsprpc \
     libsecureui_svcsock \
     libsensor_cal_2.0 \
@@ -961,7 +936,6 @@ PRODUCT_PACKAGES += \
     libsn220u_fw \
     libsnapdragoncolor-manager \
     libsnapdragoncolor-qdcm \
-    libsndcardparser \
     libsns_api \
     libsns_device_mode_stub \
     libsns_direct_channel_stub \
@@ -1051,7 +1025,6 @@ PRODUCT_PACKAGES += \
     libwfduibcsrc_vendor \
     libwfduibcsrcinterface_vendor \
     libwfdutils_proprietary \
-    libwifi-hal-ctrl \
     libwms \
     libwqe \
     libwvdrmengine \
@@ -1530,28 +1503,20 @@ PRODUCT_COPY_FILES += \
     proprietary/vendor/build_S88029AA1.prop:$(TARGET_COPY_OUT_VENDOR)/build_S88029AA1.prop \
     proprietary/vendor/build_S88029EA1.prop:$(TARGET_COPY_OUT_VENDOR)/build_S88029EA1.prop \
     proprietary/vendor/build_S88029JA1.prop:$(TARGET_COPY_OUT_VENDOR)/build_S88029JA1.prop \
-    proprietary/vendor/app/CACertService/CACertService.apk:$(TARGET_COPY_OUT_VENDOR)/app/CACertService/CACertService.apk \
     proprietary/vendor/app/CACertService/oat/arm64/CACertService.odex:$(TARGET_COPY_OUT_VENDOR)/app/CACertService/oat/arm64/CACertService.odex \
     proprietary/vendor/app/CACertService/oat/arm64/CACertService.vdex:$(TARGET_COPY_OUT_VENDOR)/app/CACertService/oat/arm64/CACertService.vdex \
-    proprietary/vendor/app/CneApp/CneApp.apk:$(TARGET_COPY_OUT_VENDOR)/app/CneApp/CneApp.apk \
     proprietary/vendor/app/CneApp/oat/arm64/CneApp.odex:$(TARGET_COPY_OUT_VENDOR)/app/CneApp/oat/arm64/CneApp.odex \
     proprietary/vendor/app/CneApp/oat/arm64/CneApp.vdex:$(TARGET_COPY_OUT_VENDOR)/app/CneApp/oat/arm64/CneApp.vdex \
-    proprietary/vendor/app/IFAAService/IFAAService.apk:$(TARGET_COPY_OUT_VENDOR)/app/IFAAService/IFAAService.apk \
     proprietary/vendor/app/IFAAService/oat/arm64/IFAAService.odex:$(TARGET_COPY_OUT_VENDOR)/app/IFAAService/oat/arm64/IFAAService.odex \
     proprietary/vendor/app/IFAAService/oat/arm64/IFAAService.vdex:$(TARGET_COPY_OUT_VENDOR)/app/IFAAService/oat/arm64/IFAAService.vdex \
-    proprietary/vendor/app/IWlanService/IWlanService.apk:$(TARGET_COPY_OUT_VENDOR)/app/IWlanService/IWlanService.apk \
     proprietary/vendor/app/IWlanService/oat/arm64/IWlanService.odex:$(TARGET_COPY_OUT_VENDOR)/app/IWlanService/oat/arm64/IWlanService.odex \
     proprietary/vendor/app/IWlanService/oat/arm64/IWlanService.vdex:$(TARGET_COPY_OUT_VENDOR)/app/IWlanService/oat/arm64/IWlanService.vdex \
-    proprietary/vendor/app/MipayService/MipayService.apk:$(TARGET_COPY_OUT_VENDOR)/app/MipayService/MipayService.apk \
     proprietary/vendor/app/MipayService/oat/arm64/MipayService.odex:$(TARGET_COPY_OUT_VENDOR)/app/MipayService/oat/arm64/MipayService.odex \
     proprietary/vendor/app/MipayService/oat/arm64/MipayService.vdex:$(TARGET_COPY_OUT_VENDOR)/app/MipayService/oat/arm64/MipayService.vdex \
-    proprietary/vendor/app/SoterService/SoterService.apk:$(TARGET_COPY_OUT_VENDOR)/app/SoterService/SoterService.apk \
     proprietary/vendor/app/SoterService/oat/arm64/SoterService.odex:$(TARGET_COPY_OUT_VENDOR)/app/SoterService/oat/arm64/SoterService.odex \
     proprietary/vendor/app/SoterService/oat/arm64/SoterService.vdex:$(TARGET_COPY_OUT_VENDOR)/app/SoterService/oat/arm64/SoterService.vdex \
-    proprietary/vendor/app/TimeService/TimeService.apk:$(TARGET_COPY_OUT_VENDOR)/app/TimeService/TimeService.apk \
     proprietary/vendor/app/TimeService/oat/arm64/TimeService.odex:$(TARGET_COPY_OUT_VENDOR)/app/TimeService/oat/arm64/TimeService.odex \
     proprietary/vendor/app/TimeService/oat/arm64/TimeService.vdex:$(TARGET_COPY_OUT_VENDOR)/app/TimeService/oat/arm64/TimeService.vdex \
-    proprietary/vendor/app/TrustZoneAccessService/TrustZoneAccessService.apk:$(TARGET_COPY_OUT_VENDOR)/app/TrustZoneAccessService/TrustZoneAccessService.apk \
     proprietary/vendor/app/TrustZoneAccessService/oat/arm64/TrustZoneAccessService.odex:$(TARGET_COPY_OUT_VENDOR)/app/TrustZoneAccessService/oat/arm64/TrustZoneAccessService.odex \
     proprietary/vendor/app/TrustZoneAccessService/oat/arm64/TrustZoneAccessService.vdex:$(TARGET_COPY_OUT_VENDOR)/app/TrustZoneAccessService/oat/arm64/TrustZoneAccessService.vdex \
     proprietary/vendor/bin/cameratest:$(TARGET_COPY_OUT_VENDOR)/bin/cameratest \
@@ -2347,66 +2312,6 @@ PRODUCT_COPY_FILES += \
     proprietary/vendor/etc/ssg/ta_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/ta_config.json \
     proprietary/vendor/etc/ssg/tz_whitelist.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/tz_whitelist.json \
     proprietary/vendor/etc/stability/std.mp3:$(TARGET_COPY_OUT_VENDOR)/etc/stability/std.mp3 \
-    proprietary/vendor/etc/vintf/compatibility_matrix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/compatibility_matrix.xml \
-    proprietary/vendor/etc/vintf/manifest_parrot.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest_parrot.xml \
-    proprietary/vendor/etc/vintf/manifest_ravelin.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest_ravelin.xml \
-    proprietary/vendor/etc/vintf/manifest/android.hardware.atrace@1.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.atrace@1.0-service.xml \
-    proprietary/vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service.xml \
-    proprietary/vendor/etc/vintf/manifest/android.hardware.boot@1.2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.boot@1.2.xml \
-    proprietary/vendor/etc/vintf/manifest/android.hardware.cas@1.2-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.cas@1.2-service.xml \
-    proprietary/vendor/etc/vintf/manifest/android.hardware.dumpstate@1.1-service.xiaomi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.dumpstate@1.1-service.xiaomi.xml \
-    proprietary/vendor/etc/vintf/manifest/android.hardware.gnss-aidl-service-qti.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.gnss-aidl-service-qti.xml \
-    proprietary/vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml \
-    proprietary/vendor/etc/vintf/manifest/android.hardware.graphics.mapper-impl-qti-display.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.graphics.mapper-impl-qti-display.xml \
-    proprietary/vendor/etc/vintf/manifest/android.hardware.health@2.1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.health@2.1.xml \
-    proprietary/vendor/etc/vintf/manifest/android.hardware.security.keymint-service-qti-rkp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.security.keymint-service-qti-rkp.xml \
-    proprietary/vendor/etc/vintf/manifest/android.hardware.sensors@2.1-multihal.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.sensors@2.1-multihal.xml \
-    proprietary/vendor/etc/vintf/manifest/android.hardware.thermal@2.0-service.qti.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.thermal@2.0-service.qti.xml \
-    proprietary/vendor/etc/vintf/manifest/android.hardware.usb.gadget@1.1-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.usb.gadget@1.1-service.xml \
-    proprietary/vendor/etc/vintf/manifest/android.hardware.usb@1.2-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.usb@1.2-service.xml \
-    proprietary/vendor/etc/vintf/manifest/android.hardware.wifi.hostapd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.wifi.hostapd.xml \
-    proprietary/vendor/etc/vintf/manifest/android.hardware.wifi.supplicant.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.wifi.supplicant.xml \
-    proprietary/vendor/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml \
-    proprietary/vendor/etc/vintf/manifest/c2_manifest_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/c2_manifest_vendor.xml \
-    proprietary/vendor/etc/vintf/manifest/c2_manifest_vendor_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/c2_manifest_vendor_audio.xml \
-    proprietary/vendor/etc/vintf/manifest/dataconnection-saidl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/dataconnection-saidl.xml \
-    proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.clearkey.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.clearkey.xml \
-    proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml \
-    proprietary/vendor/etc/vintf/manifest/manifest_non_qmaa.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_non_qmaa.xml \
-    proprietary/vendor/etc/vintf/manifest/manifest_non_qmaa_extn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_non_qmaa_extn.xml \
-    proprietary/vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.cld.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.cld.xml \
-    proprietary/vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mfidoca.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mfidoca.xml \
-    proprietary/vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mlipay.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mlipay.xml \
-    proprietary/vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mtdservice.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mtdservice.xml \
-    proprietary/vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.otrpagent@2.0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.otrpagent@2.0.xml \
-    proprietary/vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.tidaservice.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.tidaservice.xml \
-    proprietary/vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.vsimapp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.vsimapp.xml \
-    proprietary/vendor/etc/vintf/manifest/memtrack_qti.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/memtrack_qti.xml \
-    proprietary/vendor/etc/vintf/manifest/mi-misight.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/mi-misight.xml \
-    proprietary/vendor/etc/vintf/manifest/power.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/power.xml \
-    proprietary/vendor/etc/vintf/manifest/qtiradio-saidl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/qtiradio-saidl.xml \
-    proprietary/vendor/etc/vintf/manifest/vendor.qti.diag.hal.service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.diag.hal.service.xml \
-    proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.gnss-service.xml \
-    proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.display.allocator-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.hardware.display.allocator-service.xml \
-    proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.display.composer-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.hardware.display.composer-service.xml \
-    proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.display.demura-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.hardware.display.demura-service.xml \
-    proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.lights.service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.hardware.lights.service.xml \
-    proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.limits-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.hardware.limits-service.xml \
-    proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.perf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.hardware.perf.xml \
-    proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.power.powermodule.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.hardware.power.powermodule.xml \
-    proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.radio.ims.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.hardware.radio.ims.xml \
-    proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.radio.qtiradioconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.hardware.radio.qtiradioconfig.xml \
-    proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.servicetracker@1.2-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.hardware.servicetracker@1.2-service.xml \
-    proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.vibrator.service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.hardware.vibrator.service.xml \
-    proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.wifi.wificfr@1.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.hardware.wifi.wificfr@1.0-service.xml \
-    proprietary/vendor/etc/vintf/manifest/vendor.qti.memory.pasrmanager@1.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.memory.pasrmanager@1.0-service.xml \
-    proprietary/vendor/etc/vintf/manifest/vendor.xiaomi.hardware.micharge@1.0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.xiaomi.hardware.micharge@1.0.xml \
-    proprietary/vendor/etc/vintf/manifest/vendor.xiaomi.hardware.mimd@1.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.xiaomi.hardware.mimd@1.0-service.xml \
-    proprietary/vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@1.0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.xiaomi.hardware.misys@1.0.xml \
-    proprietary/vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@2.0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.xiaomi.hardware.misys@2.0.xml \
-    proprietary/vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@3.0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.xiaomi.hardware.misys@3.0.xml \
-    proprietary/vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@4.0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.xiaomi.hardware.misys@4.0.xml \
-    proprietary/vendor/etc/vintf/manifest/vendor.xiaomi.sensor.citsensorservice@2.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.xiaomi.sensor.citsensorservice@2.0-service.xml \
     proprietary/vendor/etc/wifi/icm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/icm.conf \
     proprietary/vendor/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
     proprietary/vendor/etc/wifi/vendor_cmd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/vendor_cmd.xml \
@@ -2624,8 +2529,6 @@ PRODUCT_COPY_FILES += \
     proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin \
     proprietary/vendor/odm_dlkm/etc/NOTICE.xml.gz:$(TARGET_COPY_OUT_VENDOR)/odm_dlkm/etc/NOTICE.xml.gz \
     proprietary/vendor/odm_dlkm/etc/build.prop:$(TARGET_COPY_OUT_VENDOR)/odm_dlkm/etc/build.prop \
-    proprietary/vendor/overlay/FrameworksResTarget_Vendor.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/FrameworksResTarget_Vendor.apk \
-    proprietary/vendor/overlay/WifiResTarget_Vendor.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/WifiResTarget_Vendor.apk \
     proprietary/vendor/rfs/rfs_symlinks:$(TARGET_COPY_OUT_VENDOR)/rfs/rfs_symlinks \
     proprietary/odm/etc/NOTICE.xml.gz:$(TARGET_COPY_OUT_ODM)/etc/NOTICE.xml.gz \
     proprietary/odm/etc/NOTICE_GPL.xml.gz:$(TARGET_COPY_OUT_ODM)/etc/NOTICE_GPL.xml.gz \
@@ -2716,12 +2619,6 @@ PRODUCT_COPY_FILES += \
     proprietary/odm/etc/selinux/precompiled_sepolicy.plat_sepolicy_and_mapping.sha256:$(TARGET_COPY_OUT_ODM)/etc/selinux/precompiled_sepolicy.plat_sepolicy_and_mapping.sha256 \
     proprietary/odm/etc/selinux/precompiled_sepolicy.product_sepolicy_and_mapping.sha256:$(TARGET_COPY_OUT_ODM)/etc/selinux/precompiled_sepolicy.product_sepolicy_and_mapping.sha256 \
     proprietary/odm/etc/selinux/precompiled_sepolicy.system_ext_sepolicy_and_mapping.sha256:$(TARGET_COPY_OUT_ODM)/etc/selinux/precompiled_sepolicy.system_ext_sepolicy_and_mapping.sha256 \
-    proprietary/odm/etc/vintf/manifest_hceese.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_hceese.xml \
-    proprietary/odm/etc/vintf/manifest_hcesim.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_hcesim.xml \
-    proprietary/odm/etc/vintf/manifest_hcesim1.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_hcesim1.xml \
-    proprietary/odm/etc/vintf/manifest_hcesim1ese.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_hcesim1ese.xml \
-    proprietary/odm/etc/vintf/manifest_hcesimese.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_hcesimese.xml \
-    proprietary/odm/etc/vintf/manifest/mrm.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest/mrm.xml \
     proprietary/vendor_dlkm/etc/NOTICE.xml.gz:$(TARGET_COPY_OUT_VENDOR_DLKM)/etc/NOTICE.xml.gz \
     proprietary/vendor_dlkm/etc/build.prop:$(TARGET_COPY_OUT_VENDOR_DLKM)/etc/build.prop \
     proprietary/vendor_dlkm/etc/fs_config_dirs:$(TARGET_COPY_OUT_VENDOR_DLKM)/etc/fs_config_dirs \
@@ -2733,7 +2630,6 @@ PRODUCT_COPY_FILES += \
     proprietary/vendor_dlkm/lib/modules/modules.softdep:$(TARGET_COPY_OUT_VENDOR_DLKM)/lib/modules/modules.softdep
 
 PRODUCT_PACKAGES += \
-    symlink_app_CneApp_lib_arm64_libvndfwk_detect_jni_qti_vendor_so \
     symlink_firmware_wlan_qca_cld_adrastea_WCNSS_qcom_cfg_ini \
     symlink_firmware_wlan_qca_cld_adrastea_wlan_mac_bin \
     symlink_firmware_wlan_qca_cld_qca6490_WCNSS_qcom_cfg_ini \
@@ -2821,3 +2717,19 @@ PRODUCT_PACKAGES += \
     symlink_rfs_msm_wpss_readonly_vendor_firmware \
     symlink_rfs_msm_wpss_readwrite \
     symlink_rfs_msm_wpss_shared
+
+# Stock APKs, declared as soong modules in Android.bp because kati rejects
+# .apk entries in PRODUCT_COPY_FILES.
+PRODUCT_PACKAGES += \
+    CACertService \
+    CneApp \
+    IFAAService \
+    IWlanService \
+    MipayService \
+    SoterService \
+    TimeService \
+    TrustZoneAccessService
+
+# Stock overlays, declared as soong modules in Android.bp because kati rejects
+# .apk entries in PRODUCT_COPY_FILES.
+PRODUCT_PACKAGES += \
