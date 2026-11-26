@@ -30100,6 +30100,7 @@ cc_prebuilt_binary {
     soc_specific: true,
     prefer: true,
 }
+install_symlink {
     name: "symlink_firmware_wlan_qca_cld_adrastea_WCNSS_qcom_cfg_ini",
     installed_location: "firmware/wlan/qca_cld/adrastea/WCNSS_qcom_cfg.ini",
     symlink_target: "/vendor/etc/wifi/adrastea/WCNSS_qcom_cfg.ini",
