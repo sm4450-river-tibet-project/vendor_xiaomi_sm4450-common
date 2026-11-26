@@ -20238,12 +20238,7 @@ cc_prebuilt_library_shared {
     soc_specific: true,
     prefer: true,
 }
-cc_prebuilt_library_shared {
-    name: "libtinycompress",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
+,
     target: {
         android_arm: {
             srcs: [
