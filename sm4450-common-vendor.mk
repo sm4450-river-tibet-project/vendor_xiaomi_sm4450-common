@@ -239,12 +239,9 @@ PRODUCT_PACKAGES += \
     applypatch_bin \
     athdiag_bin \
     audio-mmitest-ftm_bin \
-    audio.bluetooth.default \
     audio.bluetooth_qti.default \
-    audio.primary.default \
     audio.primary.parrot \
     audio.r_submix.default \
-    audio.usb.default \
     audioadsprpcd_bin \
     audioflacapp_bin \
     awk_bin \
@@ -411,7 +408,6 @@ PRODUCT_PACKAGES += \
     com.xiaomi.plugin.skinbeautifier \
     com.xiaomi.plugin.superlowlight \
     com.xiaomi.plugin.swflip \
-    consumerir.default \
     cplay_bin \
     ctrlapp_dut_bin \
     debug-diag_bin \
@@ -447,7 +443,6 @@ PRODUCT_PACKAGES += \
     ftm_fm_lib \
     ftmdaemon_bin \
     garden_app_bin \
-    gralloc.default \
     hal_proxy_daemon_bin \
     hdcp1prov_bin \
     hdcp2p2prov_bin \
@@ -555,7 +550,6 @@ PRODUCT_PACKAGES += \
     libats \
     libaudio_log_utils \
     libaudiocloudctrl \
-    libaudiopreprocessing \
     libbacklight-calib \
     libbase64 \
     libbatching \
@@ -602,7 +596,6 @@ PRODUCT_PACKAGES += \
     libcheckpid \
     libchilog \
     libcld80211 \
-    libclearkeycasplugin \
     libcne \
     libcneapiclient \
     libcneoplookup \
@@ -697,7 +690,6 @@ PRODUCT_PACKAGES += \
     libizat_client_api \
     libizat_core \
     libjni_aidenoiserutilv2 \
-    libjnigraphics \
     libjnihelper \
     libjpege \
     libjson \
@@ -935,7 +927,6 @@ PRODUCT_PACKAGES += \
     libril-qc-radioconfig \
     librilqmimiscservices \
     librilutils \
-    librmnetctl \
     librpmb \
     libscveCommon \
     libscveCommon_stub \
@@ -954,7 +945,6 @@ PRODUCT_PACKAGES += \
     libsecureui_svcsock \
     libsensor_cal_2.0 \
     libsensorcal \
-    libsensorndkbridge \
     libsensorslog \
     libsfeShiftExtrapolation \
     libshoebox \
@@ -1032,13 +1022,10 @@ PRODUCT_PACKAGES += \
     libubifocus \
     libvendor.goodix.hardware.biometrics.fingerprint_2.1 \
     libvendorscenariopoweroptfeature \
-    libvibrator \
     libvideoml \
     libvideooptfeature \
     libvideotxr \
     libvideoutils \
-    libvisualizer \
-    libvmmem \
     libvndfwk_detect_jni.qti_vendor \
     libvolumelistener \
     libvsim \
@@ -1064,11 +1051,8 @@ PRODUCT_PACKAGES += \
     libwfduibcsrc_vendor \
     libwfduibcsrcinterface_vendor \
     libwfdutils_proprietary \
-    libwifi-hal \
     libwifi-hal-ctrl \
-    libwifi-hal-qcom \
     libwms \
-    libwpa_client \
     libwqe \
     libwvdrmengine \
     libwvhidl \
@@ -1080,7 +1064,6 @@ PRODUCT_PACKAGES += \
     libxtwifi_server_protocol_uri_v3 \
     loadalgo_bin \
     loc_launcher_bin \
-    local_time.default \
     logwrapper_bin \
     lowi-server_bin \
     lowirpcd_bin \
@@ -1116,7 +1099,6 @@ PRODUCT_PACKAGES += \
     pnscr_felica_bin \
     points_info_gen_bin \
     port-bridge_bin \
-    power.default \
     power_off_alarm_bin \
     poweroffm64_bin \
     poweropt-service_bin \
@@ -1514,7 +1496,6 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.sensor.citsensorservice_2.0-impl \
     vendor.xiaomi.sensor.citsensorservice_2.0-service_bin \
     vendor_cmd_tool_bin \
-    vibrator.default \
     vmmgr_bin \
     vndservice_bin \
     vndservicemanager_bin \

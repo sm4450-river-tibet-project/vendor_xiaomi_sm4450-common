@@ -4664,29 +4664,6 @@ cc_prebuilt_binary {
     prefer: true,
 }
 cc_prebuilt_library_shared {
-    name: "audio.bluetooth.default",
-    relative_install_path: "hw",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/hw/audio.bluetooth.default.so",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/hw/audio.bluetooth.default.so",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    soc_specific: true,
-    prefer: true,
-}
-cc_prebuilt_library_shared {
     name: "audio.bluetooth_qti.default",
     relative_install_path: "hw",
     owner: "xiaomi",
@@ -4702,29 +4679,6 @@ cc_prebuilt_library_shared {
         android_arm64: {
             srcs: [
                 "proprietary/vendor/lib64/hw/audio.bluetooth_qti.default.so",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    soc_specific: true,
-    prefer: true,
-}
-cc_prebuilt_library_shared {
-    name: "audio.primary.default",
-    relative_install_path: "hw",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/hw/audio.primary.default.so",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/hw/audio.primary.default.so",
             ],
         },
     },
@@ -4771,29 +4725,6 @@ cc_prebuilt_library_shared {
         android_arm64: {
             srcs: [
                 "proprietary/vendor/lib64/hw/audio.r_submix.default.so",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    soc_specific: true,
-    prefer: true,
-}
-cc_prebuilt_library_shared {
-    name: "audio.usb.default",
-    relative_install_path: "hw",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/hw/audio.usb.default.so",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/hw/audio.usb.default.so",
             ],
         },
     },
@@ -8336,29 +8267,6 @@ cc_prebuilt_library_shared {
     soc_specific: true,
     prefer: true,
 }
-cc_prebuilt_library_shared {
-    name: "consumerir.default",
-    relative_install_path: "hw",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/hw/consumerir.default.so",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/hw/consumerir.default.so",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    soc_specific: true,
-    prefer: true,
-}
 cc_prebuilt_binary {
     name: "cplay_bin",
     owner: "xiaomi",
@@ -8970,29 +8878,6 @@ cc_prebuilt_binary {
         },
     },
     compile_multilib: "64",
-    soc_specific: true,
-    prefer: true,
-}
-cc_prebuilt_library_shared {
-    name: "gralloc.default",
-    relative_install_path: "hw",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/hw/gralloc.default.so",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/hw/gralloc.default.so",
-            ],
-        },
-    },
-    compile_multilib: "both",
     soc_specific: true,
     prefer: true,
 }
@@ -11141,29 +11026,6 @@ cc_prebuilt_library_shared {
     prefer: true,
 }
 cc_prebuilt_library_shared {
-    name: "libaudiopreprocessing",
-    relative_install_path: "soundfx",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/soundfx/libaudiopreprocessing.so",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/soundfx/libaudiopreprocessing.so",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    soc_specific: true,
-    prefer: true,
-}
-cc_prebuilt_library_shared {
     name: "libbacklight-calib",
     owner: "xiaomi",
     strip: {
@@ -12154,29 +12016,6 @@ cc_prebuilt_library_shared {
         android_arm64: {
             srcs: [
                 "proprietary/vendor/lib64/libcld80211.so",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    soc_specific: true,
-    prefer: true,
-}
-cc_prebuilt_library_shared {
-    name: "libclearkeycasplugin",
-    relative_install_path: "mediacas",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/mediacas/libclearkeycasplugin.so",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/mediacas/libclearkeycasplugin.so",
             ],
         },
     },
@@ -14149,23 +13988,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "both",
-    soc_specific: true,
-    prefer: true,
-}
-cc_prebuilt_library_shared {
-    name: "libjnigraphics",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libjnigraphics.so",
-            ],
-        },
-    },
-    compile_multilib: "64",
     soc_specific: true,
     prefer: true,
 }
@@ -19177,28 +18999,6 @@ cc_prebuilt_library_shared {
     prefer: true,
 }
 cc_prebuilt_library_shared {
-    name: "librmnetctl",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/librmnetctl.so",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/librmnetctl.so",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    soc_specific: true,
-    prefer: true,
-}
-cc_prebuilt_library_shared {
     name: "librpmb",
     owner: "xiaomi",
     strip: {
@@ -19586,23 +19386,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "both",
-    soc_specific: true,
-    prefer: true,
-}
-cc_prebuilt_library_shared {
-    name: "libsensorndkbridge",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libsensorndkbridge.so",
-            ],
-        },
-    },
-    compile_multilib: "64",
     soc_specific: true,
     prefer: true,
 }
@@ -21162,28 +20945,6 @@ cc_prebuilt_library_shared {
     prefer: true,
 }
 cc_prebuilt_library_shared {
-    name: "libvibrator",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libvibrator.so",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libvibrator.so",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    soc_specific: true,
-    prefer: true,
-}
-cc_prebuilt_library_shared {
     name: "libvideoml",
     owner: "xiaomi",
     strip: {
@@ -21264,51 +21025,6 @@ cc_prebuilt_library_shared {
         android_arm64: {
             srcs: [
                 "proprietary/vendor/lib64/libvideoutils.so",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    soc_specific: true,
-    prefer: true,
-}
-cc_prebuilt_library_shared {
-    name: "libvisualizer",
-    relative_install_path: "soundfx",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/soundfx/libvisualizer.so",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/soundfx/libvisualizer.so",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    soc_specific: true,
-    prefer: true,
-}
-cc_prebuilt_library_shared {
-    name: "libvmmem",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libvmmem.so",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libvmmem.so",
             ],
         },
     },
@@ -21758,23 +21474,6 @@ cc_prebuilt_library_shared {
     prefer: true,
 }
 cc_prebuilt_library_shared {
-    name: "libwifi-hal",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libwifi-hal.so",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    soc_specific: true,
-    prefer: true,
-}
-cc_prebuilt_library_shared {
     name: "libwifi-hal-ctrl",
     owner: "xiaomi",
     strip: {
@@ -21797,28 +21496,6 @@ cc_prebuilt_library_shared {
     prefer: true,
 }
 cc_prebuilt_library_shared {
-    name: "libwifi-hal-qcom",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libwifi-hal-qcom.so",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libwifi-hal-qcom.so",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    soc_specific: true,
-    prefer: true,
-}
-cc_prebuilt_library_shared {
     name: "libwms",
     owner: "xiaomi",
     strip: {
@@ -21833,28 +21510,6 @@ cc_prebuilt_library_shared {
         android_arm64: {
             srcs: [
                 "proprietary/vendor/lib64/libwms.so",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    soc_specific: true,
-    prefer: true,
-}
-cc_prebuilt_library_shared {
-    name: "libwpa_client",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libwpa_client.so",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libwpa_client.so",
             ],
         },
     },
@@ -22082,29 +21737,6 @@ cc_prebuilt_binary {
         },
     },
     compile_multilib: "64",
-    soc_specific: true,
-    prefer: true,
-}
-cc_prebuilt_library_shared {
-    name: "local_time.default",
-    relative_install_path: "hw",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/hw/local_time.default.so",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/hw/local_time.default.so",
-            ],
-        },
-    },
-    compile_multilib: "both",
     soc_specific: true,
     prefer: true,
 }
@@ -22705,29 +22337,6 @@ cc_prebuilt_binary {
         },
     },
     compile_multilib: "64",
-    soc_specific: true,
-    prefer: true,
-}
-cc_prebuilt_library_shared {
-    name: "power.default",
-    relative_install_path: "hw",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/hw/power.default.so",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/hw/power.default.so",
-            ],
-        },
-    },
-    compile_multilib: "both",
     soc_specific: true,
     prefer: true,
 }
@@ -30789,29 +30398,6 @@ cc_prebuilt_binary {
         },
     },
     compile_multilib: "64",
-    soc_specific: true,
-    prefer: true,
-}
-cc_prebuilt_library_shared {
-    name: "vibrator.default",
-    relative_install_path: "hw",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/hw/vibrator.default.so",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/hw/vibrator.default.so",
-            ],
-        },
-    },
-    compile_multilib: "both",
     soc_specific: true,
     prefer: true,
 }
