@@ -38,7 +38,6 @@ PRODUCT_PACKAGES += \
     android.frameworks.sensorservice_1.0 \
     android.hardware.atrace_1.0 \
     android.hardware.atrace_1.0-service_bin \
-    android.hardware.audio.common-util \
     android.hardware.audio.common_2.0-util \
     android.hardware.audio.common_4.0 \
     android.hardware.audio.common_4.0-util \
@@ -557,7 +556,6 @@ PRODUCT_PACKAGES += \
     libaudio_log_utils \
     libaudiocloudctrl \
     libaudiopreprocessing \
-    libavservices_minijail \
     libbacklight-calib \
     libbase64 \
     libbatching \
@@ -603,7 +601,6 @@ PRODUCT_PACKAGES += \
     libcert_parse.wpa_s \
     libcheckpid \
     libchilog \
-    libchrome \
     libcld80211 \
     libclearkeycasplugin \
     libcne \
@@ -612,7 +609,6 @@ PRODUCT_PACKAGES += \
     libcneqmiutils \
     libcodec2_hidl_1.0 \
     libcodec2_hidl_plugin \
-    libcodec2_vndk \
     libcom.qti.chinodeutils \
     libcom.xiaomi.metadatautils \
     libcom.xiaomi.pluginutils \
@@ -637,7 +633,6 @@ PRODUCT_PACKAGES += \
     libdownmix \
     libdpmqmihal \
     libdpps \
-    libdrm \
     libdrmclearkeyplugin \
     libdrmfs \
     libdrmtime \
@@ -751,9 +746,7 @@ PRODUCT_PACKAGES += \
     libmctfengine_stub \
     libmdmdetect \
     libmdsprpc \
-    libmediautils_vendor \
     libmemperfd \
-    libmemunreachable \
     libmemutils \
     libmeters \
     libmeters-ns \
@@ -822,7 +815,6 @@ PRODUCT_PACKAGES += \
     libpal_net_if \
     libpalclient \
     libpasrutils \
-    libpcap \
     libpdmapper \
     libpdnotifier \
     libperfconfig \
@@ -995,11 +987,7 @@ PRODUCT_PACKAGES += \
     libssc_default_listener \
     libssccalapi_2.0 \
     libssd \
-    libstagefright_amrnb_common \
     libstagefright_bufferpool_2.0.1 \
-    libstagefright_enc_common \
-    libstagefright_flacdec \
-    libstagefright_omx \
     libstagefright_soft_aacdec \
     libstagefright_soft_aacenc \
     libstagefright_soft_amrdec \
@@ -1021,8 +1009,6 @@ PRODUCT_PACKAGES += \
     libstagefright_soft_vorbisdec \
     libstagefright_soft_vpxdec \
     libstagefright_soft_vpxenc \
-    libstagefright_softomx \
-    libstagefright_softomx_plugin \
     libstagefrighthw \
     libstandbyfeature \
     libstdc__ \
@@ -1057,8 +1043,6 @@ PRODUCT_PACKAGES += \
     libvmmem \
     libvndfwk_detect_jni.qti_vendor \
     libvolumelistener \
-    libvorbisidec \
-    libvpx \
     libvsim \
     libwapi_cert \
     libwfdaac_vendor \
@@ -1096,7 +1080,6 @@ PRODUCT_PACKAGES += \
     libxtadapter \
     libxtwifi_server_protocol \
     libxtwifi_server_protocol_uri_v3 \
-    libz_stable \
     loadalgo_bin \
     loc_launcher_bin \
     local_time.default \

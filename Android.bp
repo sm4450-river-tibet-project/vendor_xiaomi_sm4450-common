@@ -564,28 +564,6 @@ cc_prebuilt_binary {
     prefer: true,
 }
 cc_prebuilt_library_shared {
-    name: "android.hardware.audio.common-util",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/android.hardware.audio.common-util.so",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.audio.common-util.so",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    soc_specific: true,
-    prefer: true,
-}
-cc_prebuilt_library_shared {
     name: "android.hardware.audio.common_2.0-util",
     owner: "xiaomi",
     strip: {
@@ -11132,28 +11110,6 @@ cc_prebuilt_library_shared {
     prefer: true,
 }
 cc_prebuilt_library_shared {
-    name: "libavservices_minijail",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libavservices_minijail.so",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libavservices_minijail.so",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    soc_specific: true,
-    prefer: true,
-}
-cc_prebuilt_library_shared {
     name: "libbacklight-calib",
     owner: "xiaomi",
     strip: {
@@ -12129,23 +12085,6 @@ cc_prebuilt_library_shared {
     prefer: true,
 }
 cc_prebuilt_library_shared {
-    name: "libchrome",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libchrome.so",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    soc_specific: true,
-    prefer: true,
-}
-cc_prebuilt_library_shared {
     name: "libcld80211",
     owner: "xiaomi",
     strip: {
@@ -12314,28 +12253,6 @@ cc_prebuilt_library_shared {
         android_arm64: {
             srcs: [
                 "proprietary/vendor/lib64/libcodec2_hidl_plugin.so",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    soc_specific: true,
-    prefer: true,
-}
-cc_prebuilt_library_shared {
-    name: "libcodec2_vndk",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libcodec2_vndk.so",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libcodec2_vndk.so",
             ],
         },
     },
@@ -12849,28 +12766,6 @@ cc_prebuilt_library_shared {
         android_arm64: {
             srcs: [
                 "proprietary/vendor/lib64/libdpps.so",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    soc_specific: true,
-    prefer: true,
-}
-cc_prebuilt_library_shared {
-    name: "libdrm",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libdrm.so",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libdrm.so",
             ],
         },
     },
@@ -15230,28 +15125,6 @@ cc_prebuilt_library_shared {
     prefer: true,
 }
 cc_prebuilt_library_shared {
-    name: "libmediautils_vendor",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libmediautils_vendor.so",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libmediautils_vendor.so",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    soc_specific: true,
-    prefer: true,
-}
-cc_prebuilt_library_shared {
     name: "libmemperfd",
     owner: "xiaomi",
     strip: {
@@ -15265,28 +15138,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
-    soc_specific: true,
-    prefer: true,
-}
-cc_prebuilt_library_shared {
-    name: "libmemunreachable",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libmemunreachable.so",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libmemunreachable.so",
-            ],
-        },
-    },
-    compile_multilib: "both",
     soc_specific: true,
     prefer: true,
 }
@@ -16668,23 +16519,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "both",
-    soc_specific: true,
-    prefer: true,
-}
-cc_prebuilt_library_shared {
-    name: "libpcap",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libpcap.so",
-            ],
-        },
-    },
-    compile_multilib: "64",
     soc_specific: true,
     prefer: true,
 }
@@ -20383,23 +20217,6 @@ cc_prebuilt_library_shared {
     prefer: true,
 }
 cc_prebuilt_library_shared {
-    name: "libstagefright_amrnb_common",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libstagefright_amrnb_common.so",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    soc_specific: true,
-    prefer: true,
-}
-cc_prebuilt_library_shared {
     name: "libstagefright_bufferpool_2.0.1",
     owner: "xiaomi",
     strip: {
@@ -20418,57 +20235,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "both",
-    soc_specific: true,
-    prefer: true,
-}
-cc_prebuilt_library_shared {
-    name: "libstagefright_enc_common",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libstagefright_enc_common.so",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    soc_specific: true,
-    prefer: true,
-}
-cc_prebuilt_library_shared {
-    name: "libstagefright_flacdec",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libstagefright_flacdec.so",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    soc_specific: true,
-    prefer: true,
-}
-cc_prebuilt_library_shared {
-    name: "libstagefright_omx",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/vndk/libstagefright_omx.so",
-            ],
-        },
-    },
-    compile_multilib: "32",
     soc_specific: true,
     prefer: true,
 }
@@ -20822,40 +20588,6 @@ cc_prebuilt_library_shared {
         android_arm: {
             srcs: [
                 "proprietary/vendor/lib/libstagefright_soft_vpxenc.so",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    soc_specific: true,
-    prefer: true,
-}
-cc_prebuilt_library_shared {
-    name: "libstagefright_softomx",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libstagefright_softomx.so",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    soc_specific: true,
-    prefer: true,
-}
-cc_prebuilt_library_shared {
-    name: "libstagefright_softomx_plugin",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libstagefright_softomx_plugin.so",
             ],
         },
     },
@@ -21597,40 +21329,6 @@ cc_prebuilt_library_shared {
     prefer: true,
 }
 cc_prebuilt_library_shared {
-    name: "libvorbisidec",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libvorbisidec.so",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    soc_specific: true,
-    prefer: true,
-}
-cc_prebuilt_library_shared {
-    name: "libvpx",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libvpx.so",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    soc_specific: true,
-    prefer: true,
-}
-cc_prebuilt_library_shared {
     name: "libvsim",
     owner: "xiaomi",
     strip: {
@@ -22316,23 +22014,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "both",
-    soc_specific: true,
-    prefer: true,
-}
-cc_prebuilt_library_shared {
-    name: "libz_stable",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libz_stable.so",
-            ],
-        },
-    },
-    compile_multilib: "64",
     soc_specific: true,
     prefer: true,
 }
