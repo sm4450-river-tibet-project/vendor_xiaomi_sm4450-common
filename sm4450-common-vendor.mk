@@ -2577,11 +2577,9 @@ PRODUCT_PACKAGES += \
     symlink_lib_libEGL_adreno_so \
     symlink_lib_libGLESv2_adreno_so \
     symlink_lib_libq3dtools_adreno_so \
-    symlink_lib_modules \
     symlink_lib64_libEGL_adreno_so \
     symlink_lib64_libGLESv2_adreno_so \
     symlink_lib64_libq3dtools_adreno_so \
-    symlink_odm \
 
 # Stock APKs, declared as soong modules in Android.bp because kati rejects
 # .apk entries in PRODUCT_COPY_FILES.
