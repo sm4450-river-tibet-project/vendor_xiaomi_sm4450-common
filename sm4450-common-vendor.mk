@@ -2565,11 +2565,6 @@ PRODUCT_COPY_FILES += \
     proprietary/odm/etc/permissions/sku_hcesimese/android.hardware.se.omapi.uicc.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_hcesimese/android.hardware.se.omapi.uicc.xml \
     proprietary/odm/etc/permissions/sku_hcesimese/com.android.nfc_extras.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_hcesimese/com.android.nfc_extras.xml \
     proprietary/odm/etc/permissions/sku_hcesimese/com.nxp.mifare.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_hcesimese/com.nxp.mifare.xml \
-    proprietary/vendor_dlkm/lib/modules/modules.alias:$(TARGET_COPY_OUT_VENDOR_DLKM)/lib/modules/modules.alias \
-    proprietary/vendor_dlkm/lib/modules/modules.blocklist:$(TARGET_COPY_OUT_VENDOR_DLKM)/lib/modules/modules.blocklist \
-    proprietary/vendor_dlkm/lib/modules/modules.dep:$(TARGET_COPY_OUT_VENDOR_DLKM)/lib/modules/modules.dep \
-    proprietary/vendor_dlkm/lib/modules/modules.load:$(TARGET_COPY_OUT_VENDOR_DLKM)/lib/modules/modules.load \
-    proprietary/vendor_dlkm/lib/modules/modules.softdep:$(TARGET_COPY_OUT_VENDOR_DLKM)/lib/modules/modules.softdep
 
 PRODUCT_PACKAGES += \
     symlink_firmware_wlan_qca_cld_adrastea_WCNSS_qcom_cfg_ini \
