@@ -1502,22 +1502,6 @@ PRODUCT_COPY_FILES += \
     proprietary/vendor/build_S88029AA1.prop:$(TARGET_COPY_OUT_VENDOR)/build_S88029AA1.prop \
     proprietary/vendor/build_S88029EA1.prop:$(TARGET_COPY_OUT_VENDOR)/build_S88029EA1.prop \
     proprietary/vendor/build_S88029JA1.prop:$(TARGET_COPY_OUT_VENDOR)/build_S88029JA1.prop \
-    proprietary/vendor/app/CACertService/oat/arm64/CACertService.odex:$(TARGET_COPY_OUT_VENDOR)/app/CACertService/oat/arm64/CACertService.odex \
-    proprietary/vendor/app/CACertService/oat/arm64/CACertService.vdex:$(TARGET_COPY_OUT_VENDOR)/app/CACertService/oat/arm64/CACertService.vdex \
-    proprietary/vendor/app/CneApp/oat/arm64/CneApp.odex:$(TARGET_COPY_OUT_VENDOR)/app/CneApp/oat/arm64/CneApp.odex \
-    proprietary/vendor/app/CneApp/oat/arm64/CneApp.vdex:$(TARGET_COPY_OUT_VENDOR)/app/CneApp/oat/arm64/CneApp.vdex \
-    proprietary/vendor/app/IFAAService/oat/arm64/IFAAService.odex:$(TARGET_COPY_OUT_VENDOR)/app/IFAAService/oat/arm64/IFAAService.odex \
-    proprietary/vendor/app/IFAAService/oat/arm64/IFAAService.vdex:$(TARGET_COPY_OUT_VENDOR)/app/IFAAService/oat/arm64/IFAAService.vdex \
-    proprietary/vendor/app/IWlanService/oat/arm64/IWlanService.odex:$(TARGET_COPY_OUT_VENDOR)/app/IWlanService/oat/arm64/IWlanService.odex \
-    proprietary/vendor/app/IWlanService/oat/arm64/IWlanService.vdex:$(TARGET_COPY_OUT_VENDOR)/app/IWlanService/oat/arm64/IWlanService.vdex \
-    proprietary/vendor/app/MipayService/oat/arm64/MipayService.odex:$(TARGET_COPY_OUT_VENDOR)/app/MipayService/oat/arm64/MipayService.odex \
-    proprietary/vendor/app/MipayService/oat/arm64/MipayService.vdex:$(TARGET_COPY_OUT_VENDOR)/app/MipayService/oat/arm64/MipayService.vdex \
-    proprietary/vendor/app/SoterService/oat/arm64/SoterService.odex:$(TARGET_COPY_OUT_VENDOR)/app/SoterService/oat/arm64/SoterService.odex \
-    proprietary/vendor/app/SoterService/oat/arm64/SoterService.vdex:$(TARGET_COPY_OUT_VENDOR)/app/SoterService/oat/arm64/SoterService.vdex \
-    proprietary/vendor/app/TimeService/oat/arm64/TimeService.odex:$(TARGET_COPY_OUT_VENDOR)/app/TimeService/oat/arm64/TimeService.odex \
-    proprietary/vendor/app/TimeService/oat/arm64/TimeService.vdex:$(TARGET_COPY_OUT_VENDOR)/app/TimeService/oat/arm64/TimeService.vdex \
-    proprietary/vendor/app/TrustZoneAccessService/oat/arm64/TrustZoneAccessService.odex:$(TARGET_COPY_OUT_VENDOR)/app/TrustZoneAccessService/oat/arm64/TrustZoneAccessService.odex \
-    proprietary/vendor/app/TrustZoneAccessService/oat/arm64/TrustZoneAccessService.vdex:$(TARGET_COPY_OUT_VENDOR)/app/TrustZoneAccessService/oat/arm64/TrustZoneAccessService.vdex \
     proprietary/vendor/bin/cameratest:$(TARGET_COPY_OUT_VENDOR)/bin/cameratest \
     proprietary/vendor/bin/init.class_main.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.class_main.sh \
     proprietary/vendor/bin/init.crda.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.crda.sh \
