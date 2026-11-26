@@ -680,8 +680,6 @@ PRODUCT_PACKAGES += \
     libgpu_tonemapper \
     libgpudataproducer \
     libgralloc.qti \
-    libgralloccore \
-    libgrallocutils \
     libgrpc___unsecure \
     libgsl \
     libgui_vendor \
@@ -694,11 +692,9 @@ PRODUCT_PACKAGES += \
     libhdr_skel \
     libhdr_stub \
     libhdr_tm \
-    libhidltransport \
     libhistogram \
     libhme \
     libhme_dsp_skel \
-    libhwbinder \
     libidl \
     libimp \
     libipanat \
@@ -888,7 +884,6 @@ PRODUCT_PACKAGES += \
     libqcrildataaidl \
     libqcrildatactl \
     libqcrildataqos \
-    libqdMetaData \
     libqdcm-algo \
     libqdcm-json-mode-parser \
     libqdcm-mode-parser \
@@ -919,17 +914,14 @@ PRODUCT_PACKAGES += \
     libqrtr \
     libqrtrclient \
     libqseed3 \
-    libqservice \
     libqshcamera \
     libqsocket \
     libqtbase \
     libqti-iopd \
     libqti-iopd-client \
     libqti-perfd \
-    libqti-perfd-client \
     libqti-util \
     libqti-utils \
-    libqti_vndfwk_detect_vendor \
     libqtigefar \
     libqtikeymaster4 \
     libqtikeymint \
@@ -1009,7 +1001,6 @@ PRODUCT_PACKAGES += \
     libstagefright_bufferpool_2.0.1 \
     libstagefright_enc_common \
     libstagefright_flacdec \
-    libstagefright_foundation \
     libstagefright_omx \
     libstagefright_soft_aacdec \
     libstagefright_soft_aacenc \

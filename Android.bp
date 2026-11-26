@@ -13733,50 +13733,6 @@ cc_prebuilt_library_shared {
     prefer: true,
 }
 cc_prebuilt_library_shared {
-    name: "libgralloccore",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libgralloccore.so",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libgralloccore.so",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    soc_specific: true,
-    prefer: true,
-}
-cc_prebuilt_library_shared {
-    name: "libgrallocutils",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libgrallocutils.so",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libgrallocutils.so",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    soc_specific: true,
-    prefer: true,
-}
-cc_prebuilt_library_shared {
     name: "libgrpc___unsecure",
     owner: "xiaomi",
     strip: {
@@ -14036,28 +13992,6 @@ cc_prebuilt_library_shared {
     prefer: true,
 }
 cc_prebuilt_library_shared {
-    name: "libhidltransport",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libhidltransport.so",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libhidltransport.so",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    soc_specific: true,
-    prefer: true,
-}
-cc_prebuilt_library_shared {
     name: "libhistogram",
     owner: "xiaomi",
     strip: {
@@ -14110,28 +14044,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "32",
-    soc_specific: true,
-    prefer: true,
-}
-cc_prebuilt_library_shared {
-    name: "libhwbinder",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libhwbinder.so",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libhwbinder.so",
-            ],
-        },
-    },
-    compile_multilib: "both",
     soc_specific: true,
     prefer: true,
 }
@@ -18074,28 +17986,6 @@ cc_prebuilt_library_shared {
     prefer: true,
 }
 cc_prebuilt_library_shared {
-    name: "libqdMetaData",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libqdMetaData.so",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libqdMetaData.so",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    soc_specific: true,
-    prefer: true,
-}
-cc_prebuilt_library_shared {
     name: "libqdcm-algo",
     owner: "xiaomi",
     strip: {
@@ -18756,28 +18646,6 @@ cc_prebuilt_library_shared {
     prefer: true,
 }
 cc_prebuilt_library_shared {
-    name: "libqservice",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libqservice.so",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libqservice.so",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    soc_specific: true,
-    prefer: true,
-}
-cc_prebuilt_library_shared {
     name: "libqshcamera",
     owner: "xiaomi",
     strip: {
@@ -18910,28 +18778,6 @@ cc_prebuilt_library_shared {
     prefer: true,
 }
 cc_prebuilt_library_shared {
-    name: "libqti-perfd-client",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libqti-perfd-client.so",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libqti-perfd-client.so",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    soc_specific: true,
-    prefer: true,
-}
-cc_prebuilt_library_shared {
     name: "libqti-util",
     owner: "xiaomi",
     strip: {
@@ -18968,28 +18814,6 @@ cc_prebuilt_library_shared {
         android_arm64: {
             srcs: [
                 "proprietary/vendor/lib64/libqti-utils.so",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    soc_specific: true,
-    prefer: true,
-}
-cc_prebuilt_library_shared {
-    name: "libqti_vndfwk_detect_vendor",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libqti_vndfwk_detect_vendor.so",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libqti_vndfwk_detect_vendor.so",
             ],
         },
     },
@@ -20663,23 +20487,6 @@ cc_prebuilt_library_shared {
         android_arm: {
             srcs: [
                 "proprietary/vendor/lib/libstagefright_flacdec.so",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    soc_specific: true,
-    prefer: true,
-}
-cc_prebuilt_library_shared {
-    name: "libstagefright_foundation",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/vndk/libstagefright_foundation.so",
             ],
         },
     },
