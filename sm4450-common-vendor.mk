@@ -2527,3 +2527,6 @@ PRODUCT_PACKAGES += \
 # Stock overlays, declared as soong modules in Android.bp because kati rejects
 # .apk entries in PRODUCT_COPY_FILES.
 PRODUCT_PACKAGES += \
+    libtinycompress \
+    libbluetooth_audio_session \
+    vendor.qti.hardware.vibrator.impl \
