@@ -1312,7 +1312,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.trustedui_1.2 \
     vendor.qti.hardware.tui_comm_1.0 \
     vendor.qti.hardware.tui_comm_1.0-service-qti_bin \
-    vendor.qti.hardware.vibrator.impl \
     vendor.qti.hardware.vibrator.service_bin \
     vendor.qti.hardware.vpp_1.1 \
     vendor.qti.hardware.vpp_1.2 \
