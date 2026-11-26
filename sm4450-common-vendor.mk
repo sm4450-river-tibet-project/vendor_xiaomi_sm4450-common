@@ -809,7 +809,6 @@ PRODUCT_PACKAGES += \
     libopencv_java4 \
     libopestriping \
     libops \
-    libopus \
     libos \
     libpal_net_if \
     libpalclient \
