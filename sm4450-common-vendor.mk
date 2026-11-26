@@ -533,7 +533,6 @@ PRODUCT_PACKAGES += \
     libagmmixer \
     libaidenoiser \
     libaidenoiserv2 \
-    libalsautils \
     libapengine \
     libapn_dsp_skel \
     libappclassifier \
@@ -563,7 +562,6 @@ PRODUCT_PACKAGES += \
     libbase64 \
     libbatching \
     libbatterylistener \
-    libbinderdebug \
     libbitml_nsp_skel \
     libbitml_nsp_v2_skel \
     libbitmlengine \

@@ -10659,28 +10659,6 @@ cc_prebuilt_library_shared {
     prefer: true,
 }
 cc_prebuilt_library_shared {
-    name: "libalsautils",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libalsautils.so",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libalsautils.so",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    soc_specific: true,
-    prefer: true,
-}
-cc_prebuilt_library_shared {
     name: "libapengine",
     owner: "xiaomi",
     strip: {
@@ -11260,23 +11238,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "both",
-    soc_specific: true,
-    prefer: true,
-}
-cc_prebuilt_library_shared {
-    name: "libbinderdebug",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libbinderdebug.so",
-            ],
-        },
-    },
-    compile_multilib: "64",
     soc_specific: true,
     prefer: true,
 }
