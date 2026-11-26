@@ -30161,12 +30161,6 @@ install_symlink {
     vendor: true,
 }
 install_symlink {
-    name: "symlink_lib_modules",
-    installed_location: "lib/modules",
-    symlink_target: "/vendor_dlkm/lib/modules",
-    vendor: true,
-}
-install_symlink {
     name: "symlink_lib64_libEGL_adreno_so",
     installed_location: "lib64/libEGL_adreno.so",
     symlink_target: "/vendor/lib64/egl/libEGL_adreno.so",
@@ -30182,12 +30176,6 @@ install_symlink {
     name: "symlink_lib64_libq3dtools_adreno_so",
     installed_location: "lib64/libq3dtools_adreno.so",
     symlink_target: "/vendor/lib64/egl/libq3dtools_adreno.so",
-    vendor: true,
-}
-install_symlink {
-    name: "symlink_odm",
-    installed_location: "odm",
-    symlink_target: "/odm",
     vendor: true,
 }
 android_app_import {
