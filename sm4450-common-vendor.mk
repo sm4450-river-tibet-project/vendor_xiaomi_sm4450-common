@@ -945,7 +945,6 @@ PRODUCT_PACKAGES += \
     libthreadutils \
     libtida_1.2 \
     libtime_genoff \
-    libtinycompress \
     libtinyxml2_1 \
     libtrustedapploader \
     libtzdrmgenprov \
