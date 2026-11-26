@@ -27616,23 +27616,6 @@ cc_prebuilt_binary {
     soc_specific: true,
     prefer: true,
 }
-cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.vibrator.impl",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/vendor.qti.hardware.vibrator.impl.so",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    soc_specific: true,
-    prefer: true,
-}
 cc_prebuilt_binary {
     name: "vendor.qti.hardware.vibrator.service_bin",
     owner: "xiaomi",
