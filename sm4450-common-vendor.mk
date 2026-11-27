@@ -29,48 +29,13 @@ PRODUCT_PACKAGES += \
     agmcompressplay_bin \
     agmplay_bin \
     android.automotive.watchdog-V2-ndk_platform \
-    android.frameworks.cameraservice.common_2.0 \
-    android.frameworks.cameraservice.device_2.0 \
-    android.frameworks.cameraservice.device_2.1 \
-    android.frameworks.cameraservice.service_2.0 \
-    android.frameworks.cameraservice.service_2.1 \
-    android.frameworks.cameraservice.service_2.2 \
-    android.frameworks.sensorservice_1.0 \
     android.hardware.atrace_1.0-service_bin \
-    android.hardware.audio.common_2.0-util \
-    android.hardware.audio.common_4.0-util \
-    android.hardware.audio.common_5.0-util \
-    android.hardware.audio.common_6.0-util \
-    android.hardware.audio.common_7.0-enums \
-    android.hardware.audio.common_7.0-util \
-    android.hardware.audio.effect_2.0-impl \
-    android.hardware.audio.effect_2.0-util \
-    android.hardware.audio.effect_4.0-impl \
-    android.hardware.audio.effect_4.0-util \
-    android.hardware.audio.effect_5.0-impl \
-    android.hardware.audio.effect_5.0-util \
-    android.hardware.audio.effect_6.0-impl \
-    android.hardware.audio.effect_6.0-util \
-    android.hardware.audio.effect_7.0-impl \
-    android.hardware.audio.effect_7.0-util \
     android.hardware.audio.service_64_bin \
-    android.hardware.audio_2.0-impl \
-    android.hardware.audio_2.0-util \
-    android.hardware.audio_4.0-impl \
-    android.hardware.audio_4.0-util \
-    android.hardware.audio_5.0-impl \
-    android.hardware.audio_5.0-util \
-    android.hardware.audio_6.0-impl \
-    android.hardware.audio_6.0-util \
-    android.hardware.audio_7.0-impl \
-    android.hardware.audio_7.0-util \
-    android.hardware.automotive.vehicle_2.0-manager-lib \
     android.hardware.biometrics.common-V1-ndk_platform \
     android.hardware.biometrics.face-V1-ndk_platform \
     android.hardware.biometrics.face_1.0-service.face_bin \
     android.hardware.biometrics.fingerprint_2.1-service_bin \
     android.hardware.biometrics.fingerprint_2.1-service_lc_bin \
-    android.hardware.bluetooth.audio_2.0-impl \
     android.hardware.bluetooth_1.0-impl-qti \
     android.hardware.bluetooth_1.0-service-qti_bin \
     android.hardware.boot_1.0-impl-1.2-qti \
@@ -85,7 +50,6 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss-aidl-impl-qti \
     android.hardware.gnss-aidl-service-qti_bin \
     android.hardware.gnss_2.1-impl-qti \
-    android.hardware.health_2.0-impl-2.1-qti \
     android.hardware.health_2.1-service_bin \
     android.hardware.ir_1.0 \
     android.hardware.ir_1.0-impl \
@@ -95,21 +59,13 @@ PRODUCT_PACKAGES += \
     android.hardware.light_2.0 \
     android.hardware.power-V1-ndk_platform \
     android.hardware.power-service_bin \
-    android.hardware.renderscript_1.0-impl \
     android.hardware.secure_element_1.0-impl \
     android.hardware.security.keymint-service-qti_bin \
     android.hardware.sensors_2.1-service.multihal_bin \
-    android.hardware.soundtrigger_2.2-impl \
-    android.hardware.soundtrigger_2.3-impl \
     android.hardware.thermal_2.0-service.qti-v2_bin \
     android.hardware.usb.gadget_1.1-service-qti_bin \
     android.hardware.usb_1.2-service-qti_bin \
     android.hardware.wifi_1.0-service_bin \
-    android.hidl.allocator_1.0 \
-    android.hidl.memory.block_1.0 \
-    android.system.net.netd_1.0 \
-    android.system.net.netd_1.1 \
-    android.system.wifi.keystore_1.0 \
     applypatch_bin \
     athdiag_bin \
     audio-mmitest-ftm_bin \
@@ -123,7 +79,6 @@ PRODUCT_PACKAGES += \
     btaudio_offload_if \
     btconfig_bin \
     cam_ae_bin \
-    camera.device_1.0-impl \
     camera.qcom \
     camx.device_3.2-impl \
     camx.device_3.3-impl \
@@ -152,7 +107,6 @@ PRODUCT_PACKAGES += \
     cnss_diag_bin \
     com.arcsoft.node.realtimebokeh \
     com.bots.node.vendortagwrite \
-    com.dsi.ant_1.0 \
     com.dsi.ant_1.0-impl \
     com.qti.camx.chiiqutils \
     com.qti.chi.override \
@@ -457,7 +411,6 @@ PRODUCT_PACKAGES += \
     libcneapiclient \
     libcneoplookup \
     libcneqmiutils \
-    libcodec2_hidl_1.0 \
     libcodec2_hidl_plugin \
     libcom.qti.chinodeutils \
     libcom.xiaomi.metadatautils \
@@ -805,7 +758,6 @@ PRODUCT_PACKAGES += \
     libssc_default_listener \
     libssccalapi_2.0 \
     libssd \
-    libstagefright_bufferpool_2.0.1 \
     libstagefrighthw \
     libstandbyfeature \
     libstdc__ \
