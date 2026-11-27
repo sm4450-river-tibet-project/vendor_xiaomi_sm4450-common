@@ -36,194 +36,75 @@ PRODUCT_PACKAGES += \
     android.frameworks.cameraservice.service_2.1 \
     android.frameworks.cameraservice.service_2.2 \
     android.frameworks.sensorservice_1.0 \
-    android.hardware.atrace_1.0 \
     android.hardware.atrace_1.0-service_bin \
     android.hardware.audio.common_2.0-util \
-    android.hardware.audio.common_4.0 \
     android.hardware.audio.common_4.0-util \
-    android.hardware.audio.common_5.0 \
     android.hardware.audio.common_5.0-util \
-    android.hardware.audio.common_6.0 \
     android.hardware.audio.common_6.0-util \
-    android.hardware.audio.common_7.0 \
     android.hardware.audio.common_7.0-enums \
     android.hardware.audio.common_7.0-util \
-    android.hardware.audio.effect_2.0 \
     android.hardware.audio.effect_2.0-impl \
     android.hardware.audio.effect_2.0-util \
-    android.hardware.audio.effect_4.0 \
     android.hardware.audio.effect_4.0-impl \
     android.hardware.audio.effect_4.0-util \
-    android.hardware.audio.effect_5.0 \
     android.hardware.audio.effect_5.0-impl \
     android.hardware.audio.effect_5.0-util \
-    android.hardware.audio.effect_6.0 \
     android.hardware.audio.effect_6.0-impl \
     android.hardware.audio.effect_6.0-util \
-    android.hardware.audio.effect_7.0 \
     android.hardware.audio.effect_7.0-impl \
     android.hardware.audio.effect_7.0-util \
     android.hardware.audio.service_64_bin \
-    android.hardware.audio_2.0 \
     android.hardware.audio_2.0-impl \
     android.hardware.audio_2.0-util \
-    android.hardware.audio_4.0 \
     android.hardware.audio_4.0-impl \
     android.hardware.audio_4.0-util \
-    android.hardware.audio_5.0 \
     android.hardware.audio_5.0-impl \
     android.hardware.audio_5.0-util \
-    android.hardware.audio_6.0 \
     android.hardware.audio_6.0-impl \
     android.hardware.audio_6.0-util \
-    android.hardware.audio_7.0 \
     android.hardware.audio_7.0-impl \
     android.hardware.audio_7.0-util \
-    android.hardware.authsecret_1.0 \
-    android.hardware.automotive.vehicle_2.0 \
     android.hardware.automotive.vehicle_2.0-manager-lib \
     android.hardware.biometrics.common-V1-ndk_platform \
     android.hardware.biometrics.face-V1-ndk_platform \
     android.hardware.biometrics.face_1.0-service.face_bin \
-    android.hardware.biometrics.fingerprint_2.1 \
     android.hardware.biometrics.fingerprint_2.1-service_bin \
     android.hardware.biometrics.fingerprint_2.1-service_lc_bin \
-    android.hardware.bluetooth.audio_2.0 \
     android.hardware.bluetooth.audio_2.0-impl \
-    android.hardware.bluetooth.audio_2.1 \
-    android.hardware.bluetooth_1.0 \
     android.hardware.bluetooth_1.0-impl-qti \
     android.hardware.bluetooth_1.0-service-qti_bin \
-    android.hardware.boot_1.0 \
     android.hardware.boot_1.0-impl-1.2-qti \
-    android.hardware.boot_1.1 \
-    android.hardware.boot_1.2 \
     android.hardware.boot_1.2-service_bin \
-    android.hardware.camera.common_1.0 \
-    android.hardware.camera.device_1.0 \
-    android.hardware.camera.device_3.2 \
-    android.hardware.camera.device_3.3 \
-    android.hardware.camera.device_3.4 \
-    android.hardware.camera.device_3.5 \
-    android.hardware.camera.device_3.6 \
-    android.hardware.camera.device_3.7 \
-    android.hardware.camera.metadata_3.2 \
-    android.hardware.camera.metadata_3.3 \
-    android.hardware.camera.metadata_3.4 \
-    android.hardware.camera.metadata_3.5 \
-    android.hardware.camera.metadata_3.6 \
-    android.hardware.camera.provider_2.4 \
-    android.hardware.camera.provider_2.5 \
-    android.hardware.camera.provider_2.6 \
-    android.hardware.camera.provider_2.7 \
-    android.hardware.drm_1.0 \
-    android.hardware.drm_1.1 \
-    android.hardware.drm_1.2 \
-    android.hardware.drm_1.3 \
-    android.hardware.drm_1.4 \
     android.hardware.drm_1.4-service.clearkey_bin \
     android.hardware.drm_1.4-service.widevine_bin \
     android.hardware.dumpstate_1.0 \
     android.hardware.dumpstate_1.1 \
     android.hardware.dumpstate_1.1-service.xiaomi_bin \
-    android.hardware.gatekeeper_1.0 \
     android.hardware.gatekeeper_1.0-impl-qti \
     android.hardware.gatekeeper_1.0-service-qti_bin \
     android.hardware.gnss-aidl-impl-qti \
     android.hardware.gnss-aidl-service-qti_bin \
-    android.hardware.gnss.measurement_corrections_1.0 \
-    android.hardware.gnss.measurement_corrections_1.1 \
-    android.hardware.gnss.visibility_control_1.0 \
-    android.hardware.gnss_1.0 \
-    android.hardware.gnss_1.1 \
-    android.hardware.gnss_2.0 \
-    android.hardware.gnss_2.1 \
     android.hardware.gnss_2.1-impl-qti \
-    android.hardware.graphics.composer_2.1 \
-    android.hardware.graphics.composer_2.2 \
-    android.hardware.graphics.composer_2.3 \
-    android.hardware.graphics.composer_2.4 \
-    android.hardware.graphics.mapper_4.0-impl-qti-display \
-    android.hardware.health_1.0 \
-    android.hardware.health_2.0 \
     android.hardware.health_2.0-impl-2.1-qti \
-    android.hardware.health_2.1 \
     android.hardware.health_2.1-service_bin \
     android.hardware.ir_1.0 \
     android.hardware.ir_1.0-impl \
     android.hardware.ir_1.0-service_bin \
-    android.hardware.keymaster_3.0 \
-    android.hardware.keymaster_4.0 \
     android.hardware.keymaster_4.0-service-qti_bin \
-    android.hardware.keymaster_4.1 \
     android.hardware.keymaster_4.1-service-qti_bin \
     android.hardware.light_2.0 \
-    android.hardware.media.c2_1.0 \
-    android.hardware.nfc_1.0 \
-    android.hardware.nfc_1.1 \
-    android.hardware.nfc_1.2 \
     android.hardware.power-V1-ndk_platform \
     android.hardware.power-service_bin \
-    android.hardware.power_1.0 \
-    android.hardware.power_1.1 \
-    android.hardware.power_1.2 \
-    android.hardware.radio.config_1.0 \
-    android.hardware.radio.config_1.1 \
-    android.hardware.radio.config_1.2 \
-    android.hardware.radio.config_1.3 \
-    android.hardware.radio.deprecated_1.0 \
-    android.hardware.radio_1.0 \
-    android.hardware.radio_1.1 \
-    android.hardware.radio_1.2 \
-    android.hardware.radio_1.3 \
-    android.hardware.radio_1.4 \
-    android.hardware.radio_1.5 \
-    android.hardware.radio_1.6 \
     android.hardware.renderscript_1.0-impl \
-    android.hardware.secure_element_1.0 \
     android.hardware.secure_element_1.0-impl \
-    android.hardware.secure_element_1.1 \
-    android.hardware.secure_element_1.2 \
     android.hardware.security.keymint-service-qti_bin \
-    android.hardware.sensors_1.0 \
-    android.hardware.sensors_2.0 \
-    android.hardware.sensors_2.0-ScopedWakelock \
-    android.hardware.sensors_2.1 \
     android.hardware.sensors_2.1-service.multihal_bin \
-    android.hardware.soundtrigger_2.1 \
-    android.hardware.soundtrigger_2.2 \
     android.hardware.soundtrigger_2.2-impl \
-    android.hardware.soundtrigger_2.3 \
     android.hardware.soundtrigger_2.3-impl \
-    android.hardware.tetheroffload.config_1.0 \
-    android.hardware.tetheroffload.control_1.0 \
-    android.hardware.tetheroffload.control_1.1 \
-    android.hardware.thermal_1.0 \
-    android.hardware.thermal_2.0 \
     android.hardware.thermal_2.0-service.qti-v2_bin \
-    android.hardware.usb.gadget_1.0 \
-    android.hardware.usb.gadget_1.1 \
     android.hardware.usb.gadget_1.1-service-qti_bin \
-    android.hardware.usb_1.0 \
-    android.hardware.usb_1.1 \
-    android.hardware.usb_1.2 \
     android.hardware.usb_1.2-service-qti_bin \
-    android.hardware.wifi.hostapd_1.0 \
-    android.hardware.wifi.hostapd_1.1 \
-    android.hardware.wifi.hostapd_1.2 \
-    android.hardware.wifi.hostapd_1.3 \
-    android.hardware.wifi.supplicant_1.0 \
-    android.hardware.wifi.supplicant_1.1 \
-    android.hardware.wifi.supplicant_1.2 \
-    android.hardware.wifi.supplicant_1.3 \
-    android.hardware.wifi.supplicant_1.4 \
-    android.hardware.wifi_1.0 \
     android.hardware.wifi_1.0-service_bin \
-    android.hardware.wifi_1.1 \
-    android.hardware.wifi_1.2 \
-    android.hardware.wifi_1.3 \
-    android.hardware.wifi_1.4 \
-    android.hardware.wifi_1.5 \
     android.hidl.allocator_1.0 \
     android.hidl.memory.block_1.0 \
     android.system.net.netd_1.0 \
@@ -273,7 +154,6 @@ PRODUCT_PACKAGES += \
     com.bots.node.vendortagwrite \
     com.dsi.ant_1.0 \
     com.dsi.ant_1.0-impl \
-    com.fingerprints.extension_1.0 \
     com.qti.camx.chiiqutils \
     com.qti.chi.override \
     com.qti.chiusecaseselector \
@@ -1100,19 +980,6 @@ PRODUCT_PACKAGES += \
     vendor.display.color_1.5 \
     vendor.display.color_1.6 \
     vendor.display.color_1.7 \
-    vendor.display.config_1.0 \
-    vendor.display.config_1.1 \
-    vendor.display.config_1.10 \
-    vendor.display.config_1.11 \
-    vendor.display.config_1.2 \
-    vendor.display.config_1.3 \
-    vendor.display.config_1.4 \
-    vendor.display.config_1.5 \
-    vendor.display.config_1.6 \
-    vendor.display.config_1.7 \
-    vendor.display.config_1.8 \
-    vendor.display.config_1.9 \
-    vendor.display.config_2.0 \
     vendor.display.postproc_1.0 \
     vendor.dpmd_bin \
     vendor.libdpmctmgr \
@@ -1138,7 +1005,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.esepowermanager_1.1-service_bin \
     vendor.qti.gnss-V3-ndk_platform \
     vendor.qti.gnss-service \
-    vendor.qti.hardware.AGMIPC_1.0 \
     vendor.qti.hardware.AGMIPC_1.0-impl \
     vendor.qti.hardware.AGMIPC_1.0-service_bin \
     vendor.qti.hardware.ListenSoundModel_1.0 \
@@ -1147,22 +1013,15 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.alarm_1.0-impl \
     vendor.qti.hardware.alarm_1.0-service_bin \
     vendor.qti.hardware.automotive.vehicle_1.0 \
-    vendor.qti.hardware.bluetooth_audio_2.0 \
     vendor.qti.hardware.bluetooth_audio_2.0-impl \
-    vendor.qti.hardware.bluetooth_audio_2.1 \
     vendor.qti.hardware.bluetooth_audio_2.1-impl \
     vendor.qti.hardware.bluetooth_sar_1.0 \
     vendor.qti.hardware.bluetooth_sar_1.1 \
     vendor.qti.hardware.bluetooth_sar_1.1-impl \
-    vendor.qti.hardware.btconfigstore_1.0 \
     vendor.qti.hardware.btconfigstore_1.0-impl \
-    vendor.qti.hardware.btconfigstore_2.0 \
     vendor.qti.hardware.btconfigstore_2.0-impl \
     vendor.qti.hardware.cacert_1.0 \
-    vendor.qti.hardware.camera.device_1.0 \
-    vendor.qti.hardware.camera.postproc_1.0 \
     vendor.qti.hardware.camera.postproc_1.0-service-impl \
-    vendor.qti.hardware.capabilityconfigstore_1.0 \
     vendor.qti.hardware.capabilityconfigstore_1.0-impl \
     vendor.qti.hardware.capabilityconfigstore_1.0-service_bin \
     vendor.qti.hardware.data.cne.internal.api_1.0 \
@@ -1184,14 +1043,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.data.lce_1.0 \
     vendor.qti.hardware.data.qmi_1.0 \
     vendor.qti.hardware.display.allocator-service_bin \
-    vendor.qti.hardware.display.allocator_1.0 \
-    vendor.qti.hardware.display.allocator_3.0 \
-    vendor.qti.hardware.display.allocator_4.0 \
     vendor.qti.hardware.display.composer-service_bin \
-    vendor.qti.hardware.display.composer_1.0 \
-    vendor.qti.hardware.display.composer_2.0 \
-    vendor.qti.hardware.display.composer_3.0 \
-    vendor.qti.hardware.display.composer_3.1 \
     vendor.qti.hardware.display.config-V1-ndk_platform \
     vendor.qti.hardware.display.config-V2-ndk_platform \
     vendor.qti.hardware.display.config-V3-ndk_platform \
@@ -1200,15 +1052,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.config-V6-ndk_platform \
     vendor.qti.hardware.display.config-V7-ndk_platform \
     vendor.qti.hardware.display.demura-service_bin \
-    vendor.qti.hardware.display.demura_2.0 \
-    vendor.qti.hardware.display.mapper_1.0 \
-    vendor.qti.hardware.display.mapper_1.1 \
-    vendor.qti.hardware.display.mapper_2.0 \
-    vendor.qti.hardware.display.mapper_3.0 \
-    vendor.qti.hardware.display.mapper_4.0 \
-    vendor.qti.hardware.display.mapperextensions_1.0 \
-    vendor.qti.hardware.display.mapperextensions_1.1 \
-    vendor.qti.hardware.display.mapperextensions_1.2 \
     vendor.qti.hardware.dpmservice_1.0 \
     vendor.qti.hardware.dpmservice_1.1 \
     vendor.qti.hardware.dsp_1.0 \
@@ -1231,13 +1074,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.limits_1.1-service_bin \
     vendor.qti.hardware.memtrack-service_bin \
     vendor.qti.hardware.mwqemadapter_1.0 \
-    vendor.qti.hardware.pal_1.0 \
     vendor.qti.hardware.pal_1.0-impl \
     vendor.qti.hardware.perf-hal-service_bin \
-    vendor.qti.hardware.perf_2.0 \
-    vendor.qti.hardware.perf_2.1 \
-    vendor.qti.hardware.perf_2.2 \
-    vendor.qti.hardware.perf_2.3 \
     vendor.qti.hardware.power.powermodule_1.0 \
     vendor.qti.hardware.qccsyshal_1.0 \
     vendor.qti.hardware.qccsyshal_1.1 \
@@ -1294,9 +1132,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.sensorscalibrate_1.0 \
     vendor.qti.hardware.sensorscalibrate_1.0-impl \
     vendor.qti.hardware.sensorscalibrate_1.0-service_bin \
-    vendor.qti.hardware.servicetracker_1.0 \
-    vendor.qti.hardware.servicetracker_1.1 \
-    vendor.qti.hardware.servicetracker_1.2 \
     vendor.qti.hardware.servicetracker_1.2-impl \
     vendor.qti.hardware.servicetracker_1.2-service_bin \
     vendor.qti.hardware.sigma_miracast_1.0 \
@@ -1305,7 +1140,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.soter_1.0-impl \
     vendor.qti.hardware.soter_1.0-provision_bin \
     vendor.qti.hardware.soter_1.0-service_bin \
-    vendor.qti.hardware.systemhelper_1.0 \
     vendor.qti.hardware.trustedui_1.0 \
     vendor.qti.hardware.trustedui_1.0-service-qti_bin \
     vendor.qti.hardware.trustedui_1.1 \
@@ -1317,12 +1151,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.vpp_1.2 \
     vendor.qti.hardware.vpp_1.3 \
     vendor.qti.hardware.vpp_2.0 \
-    vendor.qti.hardware.wifi.hostapd_1.0 \
-    vendor.qti.hardware.wifi.hostapd_1.1 \
-    vendor.qti.hardware.wifi.hostapd_1.2 \
-    vendor.qti.hardware.wifi.supplicant_2.0 \
-    vendor.qti.hardware.wifi.supplicant_2.1 \
-    vendor.qti.hardware.wifi.supplicant_2.2 \
     vendor.qti.hardware.wifi.wificfr_1.0 \
     vendor.qti.hardware.wifi.wifilearner_1.0 \
     vendor.qti.hardware.wifidisplaysession_1.0 \
@@ -1373,11 +1201,8 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.cld_1.0 \
     vendor.xiaomi.hardware.cld_1.0-impl \
     vendor.xiaomi.hardware.cld_1.0-service_bin \
-    vendor.xiaomi.hardware.displayfeature_1.0 \
     vendor.xiaomi.hardware.displayfeature_1.0-impl \
     vendor.xiaomi.hardware.displayfeature_1.0-service_bin \
-    vendor.xiaomi.hardware.fingerprintextension_1.0 \
-    vendor.xiaomi.hardware.mfidoca_1.0 \
     vendor.xiaomi.hardware.micharge_1.0 \
     vendor.xiaomi.hardware.micharge_1.0-impl \
     vendor.xiaomi.hardware.micharge_1.0-service_bin \
@@ -1397,20 +1222,13 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.misys_4.0 \
     vendor.xiaomi.hardware.misys_4.0-impl \
     vendor.xiaomi.hardware.misys_4.0-service_bin \
-    vendor.xiaomi.hardware.mlipay_1.0 \
-    vendor.xiaomi.hardware.mlipay_1.1 \
     vendor.xiaomi.hardware.mrm-V1-ndk_platform \
-    vendor.xiaomi.hardware.mtdservice_1.0 \
-    vendor.xiaomi.hardware.mtdservice_1.1 \
-    vendor.xiaomi.hardware.mtdservice_1.2 \
-    vendor.xiaomi.hardware.mtdservice_1.3 \
     vendor.xiaomi.hardware.otrpagent_2.0 \
     vendor.xiaomi.hardware.otrpagent_2.0-impl \
     vendor.xiaomi.hardware.otrpagent_2.0-service_bin \
     vendor.xiaomi.hardware.tidaservice_1.0 \
     vendor.xiaomi.hardware.tidaservice_1.1 \
     vendor.xiaomi.hardware.tidaservice_1.2 \
-    vendor.xiaomi.hardware.touchfeature_1.0 \
     vendor.xiaomi.hardware.touchfeature_1.0-impl \
     vendor.xiaomi.hardware.touchfeature_1.0-service_bin \
     vendor.xiaomi.sensor.citsensorservice_1.1 \
@@ -2495,7 +2313,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm4450-common/proprietary/odm/etc/permissions/sku_hcesimese/android.hardware.se.omapi.ese.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_hcesimese/android.hardware.se.omapi.ese.xml \
     vendor/xiaomi/sm4450-common/proprietary/odm/etc/permissions/sku_hcesimese/android.hardware.se.omapi.uicc.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_hcesimese/android.hardware.se.omapi.uicc.xml \
     vendor/xiaomi/sm4450-common/proprietary/odm/etc/permissions/sku_hcesimese/com.android.nfc_extras.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_hcesimese/com.android.nfc_extras.xml \
-    vendor/xiaomi/sm4450-common/proprietary/odm/etc/permissions/sku_hcesimese/com.nxp.mifare.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_hcesimese/com.nxp.mifare.xml \
+    vendor/xiaomi/sm4450-common/proprietary/odm/etc/permissions/sku_hcesimese/com.nxp.mifare.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_hcesimese/com.nxp.mifare.xml
 
 PRODUCT_PACKAGES += \
     symlink_firmware_wlan_qca_cld_adrastea_WCNSS_qcom_cfg_ini \
@@ -2510,7 +2328,7 @@ PRODUCT_PACKAGES += \
     symlink_lib_libq3dtools_adreno_so \
     symlink_lib64_libEGL_adreno_so \
     symlink_lib64_libGLESv2_adreno_so \
-    symlink_lib64_libq3dtools_adreno_so \
+    symlink_lib64_libq3dtools_adreno_so
 
 # Stock APKs, declared as soong modules in Android.bp because kati rejects
 # .apk entries in PRODUCT_COPY_FILES.
@@ -2529,4 +2347,4 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libtinycompress \
     libbluetooth_audio_session \
-    vendor.qti.hardware.vibrator.impl \
+    vendor.qti.hardware.vibrator.impl 
