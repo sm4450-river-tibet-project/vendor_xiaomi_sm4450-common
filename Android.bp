@@ -565,6 +565,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.atrace_1.0",
     owner: "xiaomi",
     strip: {
@@ -626,6 +627,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.audio.common_4.0",
     owner: "xiaomi",
     strip: {
@@ -674,6 +676,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.audio.common_5.0",
     owner: "xiaomi",
     strip: {
@@ -722,6 +725,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.audio.common_6.0",
     owner: "xiaomi",
     strip: {
@@ -770,6 +774,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.audio.common_7.0",
     owner: "xiaomi",
     strip: {
@@ -842,6 +847,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.audio.effect_2.0",
     owner: "xiaomi",
     strip: {
@@ -915,6 +921,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.audio.effect_4.0",
     owner: "xiaomi",
     strip: {
@@ -988,6 +995,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.audio.effect_5.0",
     owner: "xiaomi",
     strip: {
@@ -1061,6 +1069,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.audio.effect_6.0",
     owner: "xiaomi",
     strip: {
@@ -1134,6 +1143,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.audio.effect_7.0",
     owner: "xiaomi",
     strip: {
@@ -1225,6 +1235,7 @@ cc_prebuilt_binary {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.audio_2.0",
     owner: "xiaomi",
     strip: {
@@ -1298,6 +1309,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.audio_4.0",
     owner: "xiaomi",
     strip: {
@@ -1371,6 +1383,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.audio_5.0",
     owner: "xiaomi",
     strip: {
@@ -1444,6 +1457,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.audio_6.0",
     owner: "xiaomi",
     strip: {
@@ -1517,6 +1531,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.audio_7.0",
     owner: "xiaomi",
     strip: {
@@ -1590,6 +1605,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.authsecret_1.0",
     owner: "xiaomi",
     strip: {
@@ -1614,6 +1630,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.automotive.vehicle_2.0",
     owner: "xiaomi",
     strip: {
@@ -1716,6 +1733,7 @@ cc_prebuilt_binary {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.biometrics.fingerprint_2.1",
     owner: "xiaomi",
     strip: {
@@ -1771,6 +1789,7 @@ cc_prebuilt_binary {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.bluetooth.audio_2.0",
     owner: "xiaomi",
     strip: {
@@ -1820,6 +1839,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.bluetooth.audio_2.1",
     owner: "xiaomi",
     strip: {
@@ -1844,6 +1864,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.bluetooth_1.0",
     owner: "xiaomi",
     strip: {
@@ -1911,6 +1932,7 @@ cc_prebuilt_binary {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.boot_1.0",
     owner: "xiaomi",
     strip: {
@@ -1960,6 +1982,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.boot_1.1",
     owner: "xiaomi",
     strip: {
@@ -1984,6 +2007,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.boot_1.2",
     owner: "xiaomi",
     strip: {
@@ -2026,6 +2050,7 @@ cc_prebuilt_binary {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.camera.common_1.0",
     owner: "xiaomi",
     strip: {
@@ -2050,6 +2075,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.camera.device_1.0",
     owner: "xiaomi",
     strip: {
@@ -2074,6 +2100,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.camera.device_3.2",
     owner: "xiaomi",
     strip: {
@@ -2098,6 +2125,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.camera.device_3.3",
     owner: "xiaomi",
     strip: {
@@ -2122,6 +2150,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.camera.device_3.4",
     owner: "xiaomi",
     strip: {
@@ -2146,6 +2175,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.camera.device_3.5",
     owner: "xiaomi",
     strip: {
@@ -2170,6 +2200,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.camera.device_3.6",
     owner: "xiaomi",
     strip: {
@@ -2194,6 +2225,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.camera.device_3.7",
     owner: "xiaomi",
     strip: {
@@ -2218,6 +2250,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.camera.metadata_3.2",
     owner: "xiaomi",
     strip: {
@@ -2242,6 +2275,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.camera.metadata_3.3",
     owner: "xiaomi",
     strip: {
@@ -2266,6 +2300,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.camera.metadata_3.4",
     owner: "xiaomi",
     strip: {
@@ -2290,6 +2325,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.camera.metadata_3.5",
     owner: "xiaomi",
     strip: {
@@ -2314,6 +2350,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.camera.metadata_3.6",
     owner: "xiaomi",
     strip: {
@@ -2338,6 +2375,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.camera.provider_2.4",
     owner: "xiaomi",
     strip: {
@@ -2362,6 +2400,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.camera.provider_2.5",
     owner: "xiaomi",
     strip: {
@@ -2386,6 +2425,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.camera.provider_2.6",
     owner: "xiaomi",
     strip: {
@@ -2410,6 +2450,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.camera.provider_2.7",
     owner: "xiaomi",
     strip: {
@@ -2434,6 +2475,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.cas.native_1.0",
     owner: "xiaomi",
     strip: {
@@ -2453,6 +2495,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.cas_1.0",
     owner: "xiaomi",
     strip: {
@@ -2472,6 +2515,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.cas_1.1",
     owner: "xiaomi",
     strip: {
@@ -2491,6 +2535,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.cas_1.2",
     owner: "xiaomi",
     strip: {
@@ -2528,6 +2573,7 @@ cc_prebuilt_binary {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.drm_1.0",
     owner: "xiaomi",
     strip: {
@@ -2547,6 +2593,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.drm_1.1",
     owner: "xiaomi",
     strip: {
@@ -2566,6 +2613,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.drm_1.2",
     owner: "xiaomi",
     strip: {
@@ -2585,6 +2633,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.drm_1.3",
     owner: "xiaomi",
     strip: {
@@ -2604,6 +2653,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.drm_1.4",
     owner: "xiaomi",
     strip: {
@@ -2715,6 +2765,7 @@ cc_prebuilt_binary {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.gatekeeper_1.0",
     owner: "xiaomi",
     strip: {
@@ -2824,6 +2875,7 @@ cc_prebuilt_binary {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.gnss.measurement_corrections_1.0",
     owner: "xiaomi",
     strip: {
@@ -2848,6 +2900,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.gnss.measurement_corrections_1.1",
     owner: "xiaomi",
     strip: {
@@ -2872,6 +2925,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.gnss.visibility_control_1.0",
     owner: "xiaomi",
     strip: {
@@ -2896,6 +2950,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.gnss_1.0",
     owner: "xiaomi",
     strip: {
@@ -2920,6 +2975,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.gnss_1.1",
     owner: "xiaomi",
     strip: {
@@ -2944,6 +3000,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.gnss_2.0",
     owner: "xiaomi",
     strip: {
@@ -2968,6 +3025,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.gnss_2.1",
     owner: "xiaomi",
     strip: {
@@ -3017,6 +3075,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.graphics.composer_2.1",
     owner: "xiaomi",
     strip: {
@@ -3041,6 +3100,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.graphics.composer_2.2",
     owner: "xiaomi",
     strip: {
@@ -3065,6 +3125,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.graphics.composer_2.3",
     owner: "xiaomi",
     strip: {
@@ -3089,6 +3150,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.graphics.composer_2.4",
     owner: "xiaomi",
     strip: {
@@ -3108,6 +3170,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.graphics.mapper_4.0-impl-qti-display",
     relative_install_path: "hw",
     owner: "xiaomi",
@@ -3133,6 +3196,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.health_1.0",
     owner: "xiaomi",
     strip: {
@@ -3157,6 +3221,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.health_2.0",
     owner: "xiaomi",
     strip: {
@@ -3206,6 +3271,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.health_2.1",
     owner: "xiaomi",
     strip: {
@@ -3315,6 +3381,7 @@ cc_prebuilt_binary {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.keymaster_3.0",
     owner: "xiaomi",
     strip: {
@@ -3339,6 +3406,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.keymaster_4.0",
     owner: "xiaomi",
     strip: {
@@ -3381,6 +3449,7 @@ cc_prebuilt_binary {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.keymaster_4.1",
     owner: "xiaomi",
     strip: {
@@ -3442,6 +3511,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.media.c2_1.0",
     owner: "xiaomi",
     strip: {
@@ -3484,6 +3554,7 @@ cc_prebuilt_binary {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.nfc_1.0",
     owner: "xiaomi",
     strip: {
@@ -3508,6 +3579,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.nfc_1.1",
     owner: "xiaomi",
     strip: {
@@ -3532,6 +3604,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.nfc_1.2",
     owner: "xiaomi",
     strip: {
@@ -3592,6 +3665,7 @@ cc_prebuilt_binary {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.power_1.0",
     owner: "xiaomi",
     strip: {
@@ -3616,6 +3690,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.power_1.1",
     owner: "xiaomi",
     strip: {
@@ -3640,6 +3715,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.power_1.2",
     owner: "xiaomi",
     strip: {
@@ -3664,6 +3740,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.radio.config_1.0",
     owner: "xiaomi",
     strip: {
@@ -3688,6 +3765,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.radio.config_1.1",
     owner: "xiaomi",
     strip: {
@@ -3712,6 +3790,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.radio.config_1.2",
     owner: "xiaomi",
     strip: {
@@ -3736,6 +3815,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.radio.config_1.3",
     owner: "xiaomi",
     strip: {
@@ -3760,6 +3840,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.radio.deprecated_1.0",
     owner: "xiaomi",
     strip: {
@@ -3784,6 +3865,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.radio_1.0",
     owner: "xiaomi",
     strip: {
@@ -3808,6 +3890,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.radio_1.1",
     owner: "xiaomi",
     strip: {
@@ -3832,6 +3915,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.radio_1.2",
     owner: "xiaomi",
     strip: {
@@ -3856,6 +3940,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.radio_1.3",
     owner: "xiaomi",
     strip: {
@@ -3880,6 +3965,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.radio_1.4",
     owner: "xiaomi",
     strip: {
@@ -3904,6 +3990,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.radio_1.5",
     owner: "xiaomi",
     strip: {
@@ -3928,6 +4015,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.radio_1.6",
     owner: "xiaomi",
     strip: {
@@ -3977,6 +4065,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.secure_element_1.0",
     owner: "xiaomi",
     strip: {
@@ -4025,6 +4114,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.secure_element_1.1",
     owner: "xiaomi",
     strip: {
@@ -4049,6 +4139,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.secure_element_1.2",
     owner: "xiaomi",
     strip: {
@@ -4091,6 +4182,7 @@ cc_prebuilt_binary {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.sensors_1.0",
     owner: "xiaomi",
     strip: {
@@ -4115,6 +4207,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.sensors_2.0",
     owner: "xiaomi",
     strip: {
@@ -4139,6 +4232,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.sensors_2.0-ScopedWakelock",
     owner: "xiaomi",
     strip: {
@@ -4163,6 +4257,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.sensors_2.1",
     owner: "xiaomi",
     strip: {
@@ -4205,6 +4300,7 @@ cc_prebuilt_binary {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.soundtrigger_2.1",
     owner: "xiaomi",
     strip: {
@@ -4249,6 +4345,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.soundtrigger_2.2",
     owner: "xiaomi",
     strip: {
@@ -4298,6 +4395,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.soundtrigger_2.3",
     owner: "xiaomi",
     strip: {
@@ -4347,6 +4445,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.tetheroffload.config_1.0",
     owner: "xiaomi",
     strip: {
@@ -4366,6 +4465,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.tetheroffload.control_1.0",
     owner: "xiaomi",
     strip: {
@@ -4385,6 +4485,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.tetheroffload.control_1.1",
     owner: "xiaomi",
     strip: {
@@ -4404,6 +4505,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.thermal_1.0",
     owner: "xiaomi",
     strip: {
@@ -4423,6 +4525,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.thermal_2.0",
     owner: "xiaomi",
     strip: {
@@ -4460,6 +4563,7 @@ cc_prebuilt_binary {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.usb.gadget_1.0",
     owner: "xiaomi",
     strip: {
@@ -4479,6 +4583,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.usb.gadget_1.1",
     owner: "xiaomi",
     strip: {
@@ -4516,6 +4621,7 @@ cc_prebuilt_binary {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.usb_1.0",
     owner: "xiaomi",
     strip: {
@@ -4535,6 +4641,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.usb_1.1",
     owner: "xiaomi",
     strip: {
@@ -4554,6 +4661,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.usb_1.2",
     owner: "xiaomi",
     strip: {
@@ -4591,6 +4699,7 @@ cc_prebuilt_binary {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.wifi.hostapd_1.0",
     owner: "xiaomi",
     strip: {
@@ -4615,6 +4724,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.wifi.hostapd_1.1",
     owner: "xiaomi",
     strip: {
@@ -4634,6 +4744,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.wifi.hostapd_1.2",
     owner: "xiaomi",
     strip: {
@@ -4653,6 +4764,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.wifi.hostapd_1.3",
     owner: "xiaomi",
     strip: {
@@ -4672,6 +4784,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.wifi.supplicant_1.0",
     owner: "xiaomi",
     strip: {
@@ -4696,6 +4809,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.wifi.supplicant_1.1",
     owner: "xiaomi",
     strip: {
@@ -4715,6 +4829,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.wifi.supplicant_1.2",
     owner: "xiaomi",
     strip: {
@@ -4734,6 +4849,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.wifi.supplicant_1.3",
     owner: "xiaomi",
     strip: {
@@ -4753,6 +4869,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.wifi.supplicant_1.4",
     owner: "xiaomi",
     strip: {
@@ -4772,6 +4889,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.wifi_1.0",
     owner: "xiaomi",
     strip: {
@@ -4809,6 +4927,7 @@ cc_prebuilt_binary {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.wifi_1.1",
     owner: "xiaomi",
     strip: {
@@ -4828,6 +4947,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.wifi_1.2",
     owner: "xiaomi",
     strip: {
@@ -4847,6 +4967,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.wifi_1.3",
     owner: "xiaomi",
     strip: {
@@ -4866,6 +4987,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.wifi_1.4",
     owner: "xiaomi",
     strip: {
@@ -4885,6 +5007,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.wifi_1.5",
     owner: "xiaomi",
     strip: {
@@ -5978,6 +6101,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "com.fingerprints.extension_1.0",
     owner: "xiaomi",
     strip: {
@@ -24507,6 +24631,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.display.config_1.0",
     owner: "xiaomi",
     strip: {
@@ -24531,6 +24656,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.display.config_1.1",
     owner: "xiaomi",
     strip: {
@@ -24555,6 +24681,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.display.config_1.10",
     owner: "xiaomi",
     strip: {
@@ -24579,6 +24706,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.display.config_1.11",
     owner: "xiaomi",
     strip: {
@@ -24603,6 +24731,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.display.config_1.2",
     owner: "xiaomi",
     strip: {
@@ -24627,6 +24756,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.display.config_1.3",
     owner: "xiaomi",
     strip: {
@@ -24651,6 +24781,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.display.config_1.4",
     owner: "xiaomi",
     strip: {
@@ -24675,6 +24806,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.display.config_1.5",
     owner: "xiaomi",
     strip: {
@@ -24699,6 +24831,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.display.config_1.6",
     owner: "xiaomi",
     strip: {
@@ -24723,6 +24856,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.display.config_1.7",
     owner: "xiaomi",
     strip: {
@@ -24747,6 +24881,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.display.config_1.8",
     owner: "xiaomi",
     strip: {
@@ -24771,6 +24906,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.display.config_1.9",
     owner: "xiaomi",
     strip: {
@@ -24795,6 +24931,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.display.config_2.0",
     owner: "xiaomi",
     strip: {
@@ -25389,6 +25526,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.qti.hardware.AGMIPC_1.0",
     owner: "xiaomi",
     strip: {
@@ -25594,6 +25732,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.qti.hardware.bluetooth_audio_2.0",
     owner: "xiaomi",
     strip: {
@@ -25643,6 +25782,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.qti.hardware.bluetooth_audio_2.1",
     owner: "xiaomi",
     strip: {
@@ -25765,6 +25905,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.qti.hardware.btconfigstore_1.0",
     owner: "xiaomi",
     strip: {
@@ -25814,6 +25955,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.qti.hardware.btconfigstore_2.0",
     owner: "xiaomi",
     strip: {
@@ -25887,6 +26029,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.qti.hardware.camera.device_1.0",
     owner: "xiaomi",
     strip: {
@@ -25911,6 +26054,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.qti.hardware.camera.postproc_1.0",
     owner: "xiaomi",
     strip: {
@@ -25959,6 +26103,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.qti.hardware.capabilityconfigstore_1.0",
     owner: "xiaomi",
     strip: {
@@ -26473,6 +26618,7 @@ cc_prebuilt_binary {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.qti.hardware.display.allocator_1.0",
     owner: "xiaomi",
     strip: {
@@ -26497,6 +26643,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.qti.hardware.display.allocator_3.0",
     owner: "xiaomi",
     strip: {
@@ -26521,6 +26668,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.qti.hardware.display.allocator_4.0",
     owner: "xiaomi",
     strip: {
@@ -26563,6 +26711,7 @@ cc_prebuilt_binary {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.qti.hardware.display.composer_1.0",
     owner: "xiaomi",
     strip: {
@@ -26587,6 +26736,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.qti.hardware.display.composer_2.0",
     owner: "xiaomi",
     strip: {
@@ -26611,6 +26761,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.qti.hardware.display.composer_3.0",
     owner: "xiaomi",
     strip: {
@@ -26630,6 +26781,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.qti.hardware.display.composer_3.1",
     owner: "xiaomi",
     strip: {
@@ -26828,6 +26980,7 @@ cc_prebuilt_binary {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.qti.hardware.display.demura_2.0",
     owner: "xiaomi",
     strip: {
@@ -26852,6 +27005,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.qti.hardware.display.mapper_1.0",
     owner: "xiaomi",
     strip: {
@@ -26876,6 +27030,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.qti.hardware.display.mapper_1.1",
     owner: "xiaomi",
     strip: {
@@ -26900,6 +27055,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.qti.hardware.display.mapper_2.0",
     owner: "xiaomi",
     strip: {
@@ -26924,6 +27080,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.qti.hardware.display.mapper_3.0",
     owner: "xiaomi",
     strip: {
@@ -26948,6 +27105,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.qti.hardware.display.mapper_4.0",
     owner: "xiaomi",
     strip: {
@@ -26972,6 +27130,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.qti.hardware.display.mapperextensions_1.0",
     owner: "xiaomi",
     strip: {
@@ -26996,6 +27155,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.qti.hardware.display.mapperextensions_1.1",
     owner: "xiaomi",
     strip: {
@@ -27020,6 +27180,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.qti.hardware.display.mapperextensions_1.2",
     owner: "xiaomi",
     strip: {
@@ -27503,6 +27664,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.qti.hardware.pal_1.0",
     owner: "xiaomi",
     strip: {
@@ -27569,6 +27731,7 @@ cc_prebuilt_binary {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.qti.hardware.perf_2.0",
     owner: "xiaomi",
     strip: {
@@ -27593,6 +27756,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.qti.hardware.perf_2.1",
     owner: "xiaomi",
     strip: {
@@ -27617,6 +27781,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.qti.hardware.perf_2.2",
     owner: "xiaomi",
     strip: {
@@ -27641,6 +27806,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.qti.hardware.perf_2.3",
     owner: "xiaomi",
     strip: {
@@ -28966,6 +29132,7 @@ cc_prebuilt_binary {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.qti.hardware.servicetracker_1.0",
     owner: "xiaomi",
     strip: {
@@ -28990,6 +29157,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.qti.hardware.servicetracker_1.1",
     owner: "xiaomi",
     strip: {
@@ -29014,6 +29182,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.qti.hardware.servicetracker_1.2",
     owner: "xiaomi",
     strip: {
@@ -29209,6 +29378,7 @@ cc_prebuilt_binary {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.qti.hardware.systemhelper_1.0",
     owner: "xiaomi",
     strip: {
@@ -29479,6 +29649,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.qti.hardware.wifi.hostapd_1.0",
     owner: "xiaomi",
     strip: {
@@ -29498,6 +29669,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.qti.hardware.wifi.hostapd_1.1",
     owner: "xiaomi",
     strip: {
@@ -29517,6 +29689,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.qti.hardware.wifi.hostapd_1.2",
     owner: "xiaomi",
     strip: {
@@ -29536,6 +29709,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.qti.hardware.wifi.supplicant_2.0",
     owner: "xiaomi",
     strip: {
@@ -29555,6 +29729,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.qti.hardware.wifi.supplicant_2.1",
     owner: "xiaomi",
     strip: {
@@ -29574,6 +29749,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.qti.hardware.wifi.supplicant_2.2",
     owner: "xiaomi",
     strip: {
@@ -30713,6 +30889,7 @@ cc_prebuilt_binary {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.xiaomi.hardware.displayfeature_1.0",
     owner: "xiaomi",
     strip: {
@@ -30780,6 +30957,7 @@ cc_prebuilt_binary {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.xiaomi.hardware.fingerprintextension_1.0",
     owner: "xiaomi",
     strip: {
@@ -30799,6 +30977,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.xiaomi.hardware.mfidoca_1.0",
     owner: "xiaomi",
     strip: {
@@ -31231,6 +31410,7 @@ cc_prebuilt_binary {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.xiaomi.hardware.mlipay_1.0",
     owner: "xiaomi",
     strip: {
@@ -31255,6 +31435,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.xiaomi.hardware.mlipay_1.1",
     owner: "xiaomi",
     strip: {
@@ -31297,6 +31478,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.xiaomi.hardware.mtdservice_1.0",
     owner: "xiaomi",
     strip: {
@@ -31321,6 +31503,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.xiaomi.hardware.mtdservice_1.1",
     owner: "xiaomi",
     strip: {
@@ -31340,6 +31523,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.xiaomi.hardware.mtdservice_1.2",
     owner: "xiaomi",
     strip: {
@@ -31359,6 +31543,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.xiaomi.hardware.mtdservice_1.3",
     owner: "xiaomi",
     strip: {
@@ -31506,6 +31691,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "vendor.xiaomi.hardware.touchfeature_1.0",
     owner: "xiaomi",
     strip: {
