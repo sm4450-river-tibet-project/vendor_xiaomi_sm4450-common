@@ -25526,7 +25526,6 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
-    installable: false,
     name: "vendor.qti.hardware.AGMIPC_1.0",
     owner: "xiaomi",
     strip: {
@@ -27664,7 +27663,6 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
-    installable: false,
     name: "vendor.qti.hardware.pal_1.0",
     owner: "xiaomi",
     strip: {
