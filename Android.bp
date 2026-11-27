@@ -397,6 +397,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.frameworks.cameraservice.common_2.0",
     owner: "xiaomi",
     strip: {
@@ -421,6 +422,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.frameworks.cameraservice.device_2.0",
     owner: "xiaomi",
     strip: {
@@ -445,6 +447,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.frameworks.cameraservice.device_2.1",
     owner: "xiaomi",
     strip: {
@@ -469,6 +472,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.frameworks.cameraservice.service_2.0",
     owner: "xiaomi",
     strip: {
@@ -493,6 +497,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.frameworks.cameraservice.service_2.1",
     owner: "xiaomi",
     strip: {
@@ -517,6 +522,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.frameworks.cameraservice.service_2.2",
     owner: "xiaomi",
     strip: {
@@ -541,6 +547,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.frameworks.sensorservice_1.0",
     owner: "xiaomi",
     strip: {
@@ -603,6 +610,7 @@ cc_prebuilt_binary {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.audio.common_2.0-util",
     owner: "xiaomi",
     strip: {
@@ -652,6 +660,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.audio.common_4.0-util",
     owner: "xiaomi",
     strip: {
@@ -701,6 +710,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.audio.common_5.0-util",
     owner: "xiaomi",
     strip: {
@@ -750,6 +760,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.audio.common_6.0-util",
     owner: "xiaomi",
     strip: {
@@ -799,6 +810,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.audio.common_7.0-enums",
     owner: "xiaomi",
     strip: {
@@ -823,6 +835,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.audio.common_7.0-util",
     owner: "xiaomi",
     strip: {
@@ -872,6 +885,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.audio.effect_2.0-impl",
     relative_install_path: "hw",
     owner: "xiaomi",
@@ -897,6 +911,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.audio.effect_2.0-util",
     owner: "xiaomi",
     strip: {
@@ -946,6 +961,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.audio.effect_4.0-impl",
     relative_install_path: "hw",
     owner: "xiaomi",
@@ -971,6 +987,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.audio.effect_4.0-util",
     owner: "xiaomi",
     strip: {
@@ -1020,6 +1037,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.audio.effect_5.0-impl",
     relative_install_path: "hw",
     owner: "xiaomi",
@@ -1045,6 +1063,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.audio.effect_5.0-util",
     owner: "xiaomi",
     strip: {
@@ -1094,6 +1113,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.audio.effect_6.0-impl",
     relative_install_path: "hw",
     owner: "xiaomi",
@@ -1119,6 +1139,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.audio.effect_6.0-util",
     owner: "xiaomi",
     strip: {
@@ -1168,6 +1189,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.audio.effect_7.0-impl",
     relative_install_path: "hw",
     owner: "xiaomi",
@@ -1193,6 +1215,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.audio.effect_7.0-util",
     owner: "xiaomi",
     strip: {
@@ -1260,6 +1283,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.audio_2.0-impl",
     relative_install_path: "hw",
     owner: "xiaomi",
@@ -1285,6 +1309,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.audio_2.0-util",
     owner: "xiaomi",
     strip: {
@@ -1334,6 +1359,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.audio_4.0-impl",
     relative_install_path: "hw",
     owner: "xiaomi",
@@ -1359,6 +1385,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.audio_4.0-util",
     owner: "xiaomi",
     strip: {
@@ -1408,6 +1435,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.audio_5.0-impl",
     relative_install_path: "hw",
     owner: "xiaomi",
@@ -1433,6 +1461,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.audio_5.0-util",
     owner: "xiaomi",
     strip: {
@@ -1482,6 +1511,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.audio_6.0-impl",
     relative_install_path: "hw",
     owner: "xiaomi",
@@ -1507,6 +1537,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.audio_6.0-util",
     owner: "xiaomi",
     strip: {
@@ -1556,6 +1587,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.audio_7.0-impl",
     relative_install_path: "hw",
     owner: "xiaomi",
@@ -1581,6 +1613,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.audio_7.0-util",
     owner: "xiaomi",
     strip: {
@@ -1655,6 +1688,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.automotive.vehicle_2.0-manager-lib",
     owner: "xiaomi",
     strip: {
@@ -1814,6 +1848,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.bluetooth.audio_2.0-impl",
     relative_install_path: "hw",
     owner: "xiaomi",
@@ -3246,6 +3281,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.health_2.0-impl-2.1-qti",
     relative_install_path: "hw",
     owner: "xiaomi",
@@ -4040,6 +4076,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.renderscript_1.0-impl",
     relative_install_path: "hw",
     owner: "xiaomi",
@@ -4370,6 +4407,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.soundtrigger_2.2-impl",
     relative_install_path: "hw",
     owner: "xiaomi",
@@ -4420,6 +4458,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hardware.soundtrigger_2.3-impl",
     relative_install_path: "hw",
     owner: "xiaomi",
@@ -5027,6 +5066,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hidl.allocator_1.0",
     owner: "xiaomi",
     strip: {
@@ -5051,6 +5091,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.hidl.memory.block_1.0",
     owner: "xiaomi",
     strip: {
@@ -5075,6 +5116,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.system.net.netd_1.0",
     owner: "xiaomi",
     strip: {
@@ -5099,6 +5141,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.system.net.netd_1.1",
     owner: "xiaomi",
     strip: {
@@ -5123,6 +5166,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "android.system.wifi.keystore_1.0",
     owner: "xiaomi",
     strip: {
@@ -5417,6 +5461,7 @@ cc_prebuilt_binary {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "camera.device_1.0-impl",
     owner: "xiaomi",
     strip: {
@@ -6052,6 +6097,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "com.dsi.ant_1.0",
     owner: "xiaomi",
     strip: {
@@ -12835,6 +12881,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "libcodec2_hidl_1.0",
     owner: "xiaomi",
     strip: {
@@ -20735,6 +20782,7 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
 }
 cc_prebuilt_library_shared {
+    installable: false,
     name: "libstagefright_bufferpool_2.0.1",
     owner: "xiaomi",
     strip: {
