@@ -1250,6 +1250,8 @@ PRODUCT_PACKAGES += \
     wpa_supplicant_bin \
     xtra-daemon_bin \
     xtwifi-client_bin \
+    vendor.qti.hardware.AGMIPC_1.0 \
+    vendor.qti.hardware.pal_1.0 \
     xtwifi-inet-agent_bin
 
 PRODUCT_COPY_FILES += \
